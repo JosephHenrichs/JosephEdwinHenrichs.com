@@ -7,19 +7,19 @@
 .elementor-132 .elementor-element.elementor-element-70e70756 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-132 .elementor-element.elementor-element-70e70756 > .elementor-shape-bottom svg {width: calc(300% + 1.3px);height: 500px;}
 .elementor-132 .elementor-element.elementor-element-116f396e > .elementor-element-populated {margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;}
-.elementor-132 .elementor-element.elementor-element-4e00390b {color: #fff;font-family: "Allerta",Sans-serif;line-height: 1.5em;letter-spacing: 0px;}
+.elementor-132 .elementor-element.elementor-element-4e00390b {color: #fff;font-family: "Actor",Sans-serif;line-height: 1.5em;letter-spacing: 0px;}
 .elementor-132 .elementor-element.elementor-element-4e00390b .elementor-text-editor {column-gap: 0px;}
 .elementor-132 .elementor-element.elementor-element-4e00390b > .elementor-widget-container {margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px;}
-.elementor-132 .elementor-element.elementor-element-5e45a284 {color: #fff;font-family: "Allerta",Sans-serif;}
-.elementor-132 .elementor-element.elementor-element-5e45a284 > .elementor-widget-container {margin: 0px 0px 0px 105px;padding: 0px 0px 0px 0px;}
-.elementor-132 .elementor-element.elementor-element-7903c747 {color: #fff;font-family: "Allerta",Sans-serif;}
-.elementor-132 .elementor-element.elementor-element-7903c747 > .elementor-widget-container {margin: 0px 0px 0px 75px;padding: 0px 0px 0px 0px;}
+.elementor-132 .elementor-element.elementor-element-5e45a284 {color: #fff;font-family: "Actor",Sans-serif;}
+.elementor-132 .elementor-element.elementor-element-5e45a284 > .elementor-widget-container {margin: 0px 0px 0px 110px;padding: 0px 0px 0px 0px;}
+.elementor-132 .elementor-element.elementor-element-7903c747 {color: #fff;font-family: "Actor",Sans-serif;}
+.elementor-132 .elementor-element.elementor-element-7903c747 > .elementor-widget-container {margin: 0px 0px 0px 200px;padding: 0px 0px 0px 0px;}
 .elementor-132 .elementor-element.elementor-element-1f878829:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-1f878829 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #fff;}
 .elementor-132 .elementor-element.elementor-element-1f878829 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
 .elementor-132 .elementor-element.elementor-element-1f878829 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-132 .elementor-element.elementor-element-2a2d1394 {text-align: center;}
 .elementor-132 .elementor-element.elementor-element-2a2d1394.elementor-widget-heading .elementor-heading-title {color: #0085ba;}
-.elementor-132 .elementor-element.elementor-element-2a2d1394 .elementor-heading-title {font-family: "Actor",Sans-serif;font-weight: 100;font-style: normal;text-decoration: none;line-height: 1em;letter-spacing: 0px;}
+.elementor-132 .elementor-element.elementor-element-2a2d1394 .elementor-heading-title {font-family: "Actor",Sans-serif;font-weight: 900;font-style: normal;text-decoration: none;line-height: 1em;letter-spacing: 0px;text-shadow: 2px 3px 3px #000;}
 .elementor-132 .elementor-element.elementor-element-100f8454:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-100f8454 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #fff;}
 .elementor-132 .elementor-element.elementor-element-100f8454 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
 .elementor-132 .elementor-element.elementor-element-100f8454 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
@@ -31,7 +31,7 @@
 .elementor-132 .elementor-element.elementor-element-7bd9d846 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-132 .elementor-element.elementor-element-4e1b367e {text-align: center;}
 .elementor-132 .elementor-element.elementor-element-4e1b367e.elementor-widget-heading .elementor-heading-title {color: #fff;}
-.elementor-132 .elementor-element.elementor-element-4e1b367e .elementor-heading-title {font-family: "Actor",Sans-serif;font-weight: 100;}
+.elementor-132 .elementor-element.elementor-element-4e1b367e .elementor-heading-title {font-family: "Actor",Sans-serif;font-weight: 900;text-shadow: 2px 3px 3px #000;}
 .elementor-132 .elementor-element.elementor-element-1ec80db0:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-1ec80db0 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #fff;}
 .elementor-132 .elementor-element.elementor-element-1ec80db0 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;margin-top: 0px;margin-bottom: 0px;}
 .elementor-132 .elementor-element.elementor-element-1ec80db0 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
@@ -75,8 +75,9 @@
 .elementor-132 .elementor-element.elementor-element-6eeea742 > .elementor-shape-top svg {width: calc(111% + 1.3px);height: 44px;}
 .elementor-132 .elementor-element.elementor-element-2856aa43 > .elementor-element-populated {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
 .elementor-132 .elementor-element.elementor-element-2856aa43 > .elementor-element-populated > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
-.elementor-132 .elementor-element.elementor-element-691b9a3d .elementor-spacer-inner {height: 50px;}
+.elementor-132 .elementor-element.elementor-element-691b9a3d .elementor-spacer-inner {height: 25px;}
+.elementor-132 .elementor-element.elementor-element-147078b {text-align: center;}
+.elementor-132 .elementor-element.elementor-element-147078b.elementor-widget-heading .elementor-heading-title {color: #0085ba;}
+.elementor-132 .elementor-element.elementor-element-147078b .elementor-heading-title {font-family: "Actor",Sans-serif;font-weight: 900;text-shadow: 2px 3px 3px #000;}
 body.elementor-page-132 h1.entry-title, .elementor-page-title {display: none;}
-@media (min-width:768px) {.elementor-132 .elementor-element.elementor-element-73d50f58 {width: 39.123%;}
-	.elementor-132 .elementor-element.elementor-element-18cdec65 {width: 27.21%;}}
 @media (max-width:767px) {.elementor-132 .elementor-element.elementor-element-4260ff4 > .elementor-widget-container {margin: 0px 0px 0px 0px;}}
