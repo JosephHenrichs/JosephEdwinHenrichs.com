@@ -1,5 +1,7 @@
+.elementor-bc-flex-widget .elementor-132 .elementor-element.elementor-element-5074a0b.elementor-column .elementor-column-wrap {align-items: center;}
+.elementor-132 .elementor-element.elementor-element-5074a0b.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap {align-content: center;align-items: center;}
 .elementor-132 .elementor-element.elementor-element-4260ff4 .elementor-text-editor {text-align: center;}
-.elementor-132 .elementor-element.elementor-element-4260ff4 > .elementor-widget-container {margin: 100px 0px 0px 0px;}
+.elementor-132 .elementor-element.elementor-element-4260ff4 > .elementor-widget-container {margin: 0px 0px 0px 0px;}
 .elementor-132 .elementor-element.elementor-element-70e70756:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-70e70756 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #0085ba;}
 .elementor-132 .elementor-element.elementor-element-70e70756 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
 .elementor-132 .elementor-element.elementor-element-70e70756 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
