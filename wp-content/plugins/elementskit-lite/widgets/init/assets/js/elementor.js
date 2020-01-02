@@ -257,6 +257,7 @@
 						$(this).addClass('elementskit-coundown-finish');
 					});
 			});
+
 			$container5.each(function () {
 				var hour = $(this).data('date-ekit-hour'),
 					minute = $(this).data('date-ekit-minute'),
@@ -312,13 +313,21 @@
 					// 	labelD: labelsData[label]
 					// }));
 
-					$example.append(`<div class="elementskit-time ${label}">
-						<span class="elementskit-count elementskit-curr elementskit-top">${initData[label]}</span>
-						<span class="elementskit-count elementskit-next elementskit-top">${initData[label]}</span>
-						<span class="elementskit-count elementskit-next elementskit-bottom">${initData[label]}</span>
-						<span class="elementskit-count elementskit-curr elementskit-bottom">${initData[label]}</span>
-						<span class="elementskit-label">${labelsData[label].length < 6 ? labelsData[label] : labelsData[label].substr(0, 3)}</span>
-					</div>`);
+					// $example.append(`<div class="elementskit-time ${label}">
+					// 	<span class="elementskit-count elementskit-curr elementskit-top">${initData[label]}</span>
+					// 	<span class="elementskit-count elementskit-next elementskit-top">${initData[label]}</span>
+					// 	<span class="elementskit-count elementskit-next elementskit-bottom">${initData[label]}</span>
+					// 	<span class="elementskit-count elementskit-curr elementskit-bottom">${initData[label]}</span>
+					// 	<span class="elementskit-label">${labelsData[label].length < 6 ? labelsData[label] : labelsData[label].substr(0, 3)}</span>
+					// </div>`);
+
+					$example.append('' +
+						'<span class="elementskit-count elementskit-curr elementskit-top">' + initData[label] + '</span>' +
+						'<span class="elementskit-count elementskit-next elementskit-top">' + initData[label] + '</span>' +
+						'<span class="elementskit-count elementskit-next elementskit-bottom">' + initData[label] + '</span>' +
+						'<span class="elementskit-count elementskit-curr elementskit-bottom">' + initData[label] + '</span>' +
+						'<span class="elementskit-label">' + labelsData[label].length < 6 ? labelsData[label] : labelsData[label].substr(0, 3) + ' </span>'
+					);
 				});
 				// Starts the countdown
 				$example.theFinalCountdown(nextYear, function (event) {
@@ -473,60 +482,22 @@
 		},
 
 		Image_Comparison: function ($scope) {
+			var $ekit_img_comparison = $scope.find('.elementskit-image-comparison');
 
-			var $image_comparison_container = $scope.find('.image-comparison-container');
-			var $image_comparison_container_vertical = $scope.find('.image-comparison-container-vertical');
+			$ekit_img_comparison.imagesLoaded(function (e) {
+				var $el = $(e.elements[0]),
+					config = {
+						orientation: $el.hasClass('image-comparison-container-vertical') ? 'vertical' : 'horizontal',
+						before_label: $el.data('label_before'),
+						after_label: $el.data('label_after'),
+						default_offset_pct: $el.data('offset'),
+						no_overlay: $el.data('overlay'),
+						move_slider_on_hover: $el.data('move_slider_on_hover'),
+						click_to_move: $el.data('click_to_move')
+					};
 
-
-			var $this = $image_comparison_container,
-				offset = $this.data('offset'),
-				overlay = $this.data('overlay'),
-				label_before = $this.data('label_before'),
-				label_after = $this.data('label_after'),
-				move_with_handle_only = $this.data('move_with_handle_only'),
-				move_slider_on_hover = $this.data('move_slider_on_hover'),
-				click_to_move = $this.data('click_to_move');
-
-
-
-			$(window).on('load', function () {
-				$image_comparison_container.twentytwenty({
-					before_label: label_before, // Set a custom before label
-					after_label: label_after, // Set a custom after label
-					default_offset_pct: offset, // How much of the before image is visible when the page loads
-					no_overlay: overlay, //Do not show the overlay with before and after
-					move_slider_on_hover: move_slider_on_hover, // Move slider on mouse hover?
-					move_with_handle_only: move_with_handle_only, // Allow a user to swipe anywhere on the image to control slider movement.
-					click_to_move: click_to_move // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
-				});
+				$el.twentytwenty(config);
 			});
-
-
-			var $this = $image_comparison_container_vertical,
-				offset = $this.data('offset'),
-				overlay = $this.data('overlay'),
-				label_before = $this.data('label_before'),
-				label_after = $this.data('label_after'),
-				move_slider_on_hover = $this.data('move_slider_on_hover'),
-				click_to_move = $this.data('click_to_move');
-
-
-			$(window).on('load', function () {
-				$image_comparison_container_vertical.twentytwenty({
-					orientation: 'vertical',
-					before_label: label_before, // Set a custom before label
-					after_label: label_after, // Set a custom after label
-					default_offset_pct: offset, // How much of the before image is visible when the page loads
-					no_overlay: overlay, //Do not show the overlay with before and after
-					move_slider_on_hover: move_slider_on_hover, // Move slider on mouse hover?
-					move_with_handle_only: move_with_handle_only, // Allow a user to swipe anywhere on the image to control slider movement.
-					click_to_move: click_to_move // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
-
-				});
-			})
-
-
-
 		},
 		Piechart: function ($scope) {
 			var colorfulchart = $scope.find('.colorful-chart');
@@ -667,7 +638,8 @@
 
 					for (let l = 0; l < content.length; l++) {
 						if (content[l] != '') {
-							str += `<span class="ekit-letter" style="animation-delay:${delay}ms; -moz-animation-delay:${delay}ms; -webkit-animation-delay:${delay}ms;">${content[l]}</span>`;
+							// str += `<span class="ekit-letter" style="animation-delay:${delay}ms; -moz-animation-delay:${delay}ms; -webkit-animation-delay:${delay}ms;">${content[l]}</span>`;
+							str += '<span class="ekit-letter" style="animation-delay:' + delay + 'ms; -moz-animation-delay:' + delay + 'ms; -webkit-animation-delay:' + delay + 'ms;">' + content[l] + '</span>';
 							delay += delayIncrement;
 						} else {
 							str += content[i];
@@ -742,6 +714,7 @@
 					fixedBgPos: true,
 					overflowY: 'auto',
 					closeBtnInside: false,
+					prependTo: $scope.find('.ekit-wid-con'),
 					callbacks: {
 						beforeOpen: function () {
 							this.st.mainClass = "my-mfp-slide-bottom ekit-promo-popup";
