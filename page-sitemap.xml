@@ -2,9 +2,10 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/</loc>
-		<lastmod>2020-01-02T05:04:23+00:00</lastmod>
+		<lastmod>2020-01-02T06:47:22+00:00</lastmod>
 		<image:image>
 			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2020/01/Pro-Pic-4-e1577936198632.png</image:loc>
+			<image:title><![CDATA[Pro Pic 4]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2019/12/Change-01-2-1024x496.png</image:loc>
