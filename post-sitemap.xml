@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/02/various-graphics/</loc>
-		<lastmod>2020-01-02T22:09:43+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/02/agape-bible-church-website/</loc>
-		<lastmod>2020-01-02T22:10:02+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/02/2013-take-back-the-night-t-shirt/</loc>
-		<lastmod>2020-01-02T22:10:41+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/02/grosse-pointe-hunt-club-2010-misca-finals-t-shirt/</loc>
-		<lastmod>2020-01-02T22:10:53+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2019/12/28/ez-receipts/</loc>
-		<lastmod>2020-01-02T23:25:12+00:00</lastmod>
+		<lastmod>2020-01-04T08:07:06+00:00</lastmod>
 		<image:image>
 			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2019/12/EZ-Receipt-01-2.png</image:loc>
 			<image:title><![CDATA[EZ Receipt-01 (2)]]></image:title>
@@ -28,8 +12,36 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/02/various-graphics/</loc>
+		<lastmod>2020-01-04T08:18:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2019/12/EZ-Receipt-01-2-1024x665.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/02/agape-bible-church-website/</loc>
+		<lastmod>2020-01-04T08:23:26+00:00</lastmod>
+		<image:image>
+			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2019/12/EZ-Receipt-01-2-1024x665.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/02/2013-take-back-the-night-t-shirt/</loc>
+		<lastmod>2020-01-04T08:28:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2019/12/EZ-Receipt-01-2-1024x665.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/02/grosse-pointe-hunt-club-2010-misca-finals-t-shirt/</loc>
+		<lastmod>2020-01-04T08:29:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2019/12/EZ-Receipt-01-2-1024x665.png</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2019/12/28/the-helping-hand/</loc>
-		<lastmod>2020-01-02T23:25:49+00:00</lastmod>
+		<lastmod>2020-01-04T08:33:57+00:00</lastmod>
 		<image:image>
 			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2019/12/Helping_hand-01-3.png</image:loc>
 			<image:title><![CDATA[Helping_hand-01 (3)]]></image:title>
@@ -40,13 +52,34 @@
 	</url>
 	<url>
 		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2019/12/28/change/</loc>
-		<lastmod>2020-01-02T23:26:15+00:00</lastmod>
+		<lastmod>2020-01-04T08:36:02+00:00</lastmod>
 		<image:image>
 			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2020/01/Logo-Draft-01-e1577982149122.png</image:loc>
 			<image:title><![CDATA[Logo Draft-01]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2020/01/Logo-Draft-01-e1577982149122-938x1024.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/04/childrens-literacy-network-bookpals-video/</loc>
+		<lastmod>2020-01-04T08:43:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2019/12/EZ-Receipt-01-2-1024x665.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/04/demo-reel/</loc>
+		<lastmod>2020-01-04T08:44:58+00:00</lastmod>
+		<image:image>
+			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2019/12/EZ-Receipt-01-2-1024x665.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/2020/01/04/chi-trailer-demo-video/</loc>
+		<lastmod>2020-01-04T08:56:20+00:00</lastmod>
+		<image:image>
+			<image:loc>https://josephhenrichs.github.io/JosephEdwinHenrichs.com/wp-content/uploads/2019/12/EZ-Receipt-01-2-1024x665.png</image:loc>
 		</image:image>
 	</url>
 </urlset>

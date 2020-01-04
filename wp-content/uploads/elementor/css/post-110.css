@@ -82,5 +82,19 @@
 .elementor-110 .elementor-element.elementor-element-30a52f0 {text-align: center;}
 .elementor-110 .elementor-element.elementor-element-30a52f0.elementor-widget-heading .elementor-heading-title {color: #0085ba;}
 .elementor-110 .elementor-element.elementor-element-30a52f0 .elementor-heading-title {font-family: "Actor",Sans-serif;font-weight: 100;font-style: normal;text-decoration: none;line-height: 1em;letter-spacing: 0px;text-shadow: 2px 3px 3px #000;}
+.elementor-110 .elementor-element.elementor-element-10b38d52:not(.elementor-motion-effects-element-type-background), .elementor-110 .elementor-element.elementor-element-10b38d52 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #0085ba;}
+.elementor-110 .elementor-element.elementor-element-10b38d52 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
+.elementor-110 .elementor-element.elementor-element-10b38d52 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
+.elementor-110 .elementor-element.elementor-element-10b38d52 > .elementor-shape-top .elementor-shape-fill {fill: #0085ba;}
+.elementor-110 .elementor-element.elementor-element-10b38d52 > .elementor-shape-top svg {width: calc(300% + 1.3px);height: 500px;}
+.elementor-110 .elementor-element.elementor-element-76019388 {text-align: center;}
+.elementor-110 .elementor-element.elementor-element-76019388.elementor-widget-heading .elementor-heading-title {color: #fff;}
+.elementor-110 .elementor-element.elementor-element-76019388 .elementor-heading-title {font-family: "Raleway",Sans-serif;font-weight: 300;text-shadow: 5px 4px 6px #000;}
+.elementor-110 .elementor-element.elementor-element-76019388 > .elementor-widget-container {margin: 10px 0px 10px 0px;background-color: #0085ba;}
+.elementor-110 .elementor-element.elementor-element-76019388:hover .elementor-widget-container {box-shadow: 0px 0px 10px 0px rgba(0,0,0,0);}
+.elementor-110 .elementor-element.elementor-element-40ee821b:not(.elementor-motion-effects-element-type-background), .elementor-110 .elementor-element.elementor-element-40ee821b > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #0085ba;}
+.elementor-110 .elementor-element.elementor-element-40ee821b {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
+.elementor-110 .elementor-element.elementor-element-40ee821b > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
+.elementor-110 .elementor-element.elementor-element-41c9afd3 > .elementor-widget-container {padding: 10px 10px 10px 10px;background-color: rgba(255,255,255,.5);border-radius: 26px 26px 26px 26px;}
 body.elementor-page-110 h1.entry-title, .elementor-page-title {display: none;}
 @media (max-width:767px) {.elementor-110 .elementor-element.elementor-element-4260ff4 > .elementor-widget-container {margin: 0px 0px 0px 0px;}}
