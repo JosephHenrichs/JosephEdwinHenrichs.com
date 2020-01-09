@@ -33,25 +33,11 @@
 .elementor-381 .elementor-element.elementor-element-14b22a2d {text-align: center;}
 .elementor-381 .elementor-element.elementor-element-14b22a2d.elementor-widget-heading .elementor-heading-title {color: #fff;}
 .elementor-381 .elementor-element.elementor-element-14b22a2d .elementor-heading-title {font-family: "Actor",Sans-serif;font-weight: 900;text-shadow: 4px 2px 2px #000;}
-.elementor-381 .elementor-element.elementor-element-55ecc614:not(.elementor-motion-effects-element-type-background), .elementor-381 .elementor-element.elementor-element-55ecc614 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #fff;}
-.elementor-381 .elementor-element.elementor-element-55ecc614 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;margin-top: 0px;margin-bottom: 0px;}
-.elementor-381 .elementor-element.elementor-element-55ecc614 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
-.elementor-381 .elementor-element.elementor-element-55ecc614 > .elementor-shape-top .elementor-shape-fill {fill: #0085ba;}
-.elementor-381 .elementor-element.elementor-element-55ecc614 > .elementor-shape-top svg {width: calc(300% + 1.3px);height: 255px;}
-.elementor-381 .elementor-element.elementor-element-270937fc {text-align: left;}
-.elementor-381 .elementor-element.elementor-element-270937fc.elementor-widget-heading .elementor-heading-title {color: #0085ba;}
-.elementor-381 .elementor-element.elementor-element-270937fc .elementor-heading-title {font-family: "Antic",Sans-serif;font-weight: 100;}
-.elementor-381 .elementor-element.elementor-element-270937fc > .elementor-widget-container {margin: 9px 0px 0px 0px;}
-.elementor-381 .elementor-element.elementor-element-2cd18cba:not(.elementor-motion-effects-element-type-background), .elementor-381 .elementor-element.elementor-element-2cd18cba > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #fff;}
-.elementor-381 .elementor-element.elementor-element-2cd18cba {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
-.elementor-381 .elementor-element.elementor-element-2cd18cba > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
-.elementor-381 .elementor-element.elementor-element-356bf7ce {text-align: left;}
-.elementor-381 .elementor-element.elementor-element-356bf7ce.elementor-widget-heading .elementor-heading-title {color: #0085ba;}
-.elementor-381 .elementor-element.elementor-element-356bf7ce .elementor-heading-title {font-family: "Antic",Sans-serif;font-weight: 100;}
-.elementor-381 .elementor-element.elementor-element-356bf7ce > .elementor-widget-container {margin: 0px 0px 0px 0px;}
 .elementor-381 .elementor-element.elementor-element-3c244b0e:not(.elementor-motion-effects-element-type-background), .elementor-381 .elementor-element.elementor-element-3c244b0e > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #fff;}
-.elementor-381 .elementor-element.elementor-element-3c244b0e {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
+.elementor-381 .elementor-element.elementor-element-3c244b0e {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 25px 0px 0px 0px;}
 .elementor-381 .elementor-element.elementor-element-3c244b0e > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
+.elementor-381 .elementor-element.elementor-element-3c244b0e > .elementor-shape-top .elementor-shape-fill {fill: #0085ba;}
+.elementor-381 .elementor-element.elementor-element-3c244b0e > .elementor-shape-top svg {width: calc(300% + 1.3px);height: 500px;}
 .elementor-381 .elementor-element.elementor-element-33299760 {text-align: left;}
 .elementor-381 .elementor-element.elementor-element-33299760.elementor-widget-heading .elementor-heading-title {color: #0085ba;}
 .elementor-381 .elementor-element.elementor-element-33299760 .elementor-heading-title {font-family: "Antic",Sans-serif;font-weight: 100;}
