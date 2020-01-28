@@ -684,6 +684,7 @@ body.elementor-page .elementor-widget-menu-anchor {margin-bottom: 0;}
 .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {width: 1em;height: 1em;}
 .elementor-widget-text-editor .elementor-drop-cap {float: left;text-align: center;line-height: 1;font-size: 50px;}
 .elementor-widget-text-editor .elementor-drop-cap-letter {display: inline-block;}
+.elementor-widget-toggle .elementor-widget-container {overflow: hidden;}
 .elementor-toggle {text-align: left;}
 .elementor-toggle .elementor-tab-title {font-weight: 700;line-height: 1;margin: 0;padding: 15px;border-bottom: 1px solid #d4d4d4;cursor: pointer;outline: none;}
 .elementor-toggle .elementor-tab-title .elementor-toggle-icon {display: inline-block;width: 1em;}
