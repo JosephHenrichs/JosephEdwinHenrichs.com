@@ -37,21 +37,29 @@
 .elementor-59 .elementor-element.elementor-element-3f444063 > .elementor-shape-top svg {width: calc(300% + 1.3px);height: 500px;}
 .elementor-59 .elementor-element.elementor-element-4e0a78d6.elementor-widget-heading .elementor-heading-title {color: #0085ba;}
 .elementor-59 .elementor-element.elementor-element-4e0a78d6 > .elementor-widget-container {padding: 0px 0px 0px 0px;}
-.elementor-59 .elementor-element.elementor-element-a2ab12e:not(.elementor-motion-effects-element-type-background), .elementor-59 .elementor-element.elementor-element-a2ab12e > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #bcc1c6;}
+.elementor-59 .elementor-element.elementor-element-0a9bd1d:not(.elementor-motion-effects-element-type-background), .elementor-59 .elementor-element.elementor-element-0a9bd1d > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #bcc1c6;}
+.elementor-59 .elementor-element.elementor-element-0a9bd1d {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 10px 0px 0px 0px;}
+.elementor-59 .elementor-element.elementor-element-0a9bd1d > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
+.elementor-59 .elementor-element.elementor-element-0a9bd1d > .elementor-shape-top .elementor-shape-fill {fill: #fff;}
+.elementor-59 .elementor-element.elementor-element-0a9bd1d > .elementor-shape-top svg {width: calc(100% + 1.3px);height: 25px;}
+.elementor-59 .elementor-element.elementor-element-45f9dbb.elementor-widget-heading .elementor-heading-title {color: #0085ba;}
+.elementor-59 .elementor-element.elementor-element-45f9dbb > .elementor-widget-container {padding: 0px 0px 0px 0px;}
+.elementor-59 .elementor-element.elementor-element-a2ab12e:not(.elementor-motion-effects-element-type-background), .elementor-59 .elementor-element.elementor-element-a2ab12e > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #fff;}
 .elementor-59 .elementor-element.elementor-element-a2ab12e {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 10px 0px 0px 0px;}
 .elementor-59 .elementor-element.elementor-element-a2ab12e > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
-.elementor-59 .elementor-element.elementor-element-a2ab12e > .elementor-shape-top .elementor-shape-fill {fill: #fff;}
+.elementor-59 .elementor-element.elementor-element-a2ab12e > .elementor-shape-top .elementor-shape-fill {fill: #bcc1c6;}
 .elementor-59 .elementor-element.elementor-element-a2ab12e > .elementor-shape-top svg {width: calc(100% + 1.3px);height: 25px;}
 .elementor-59 .elementor-element.elementor-element-65b660a2.elementor-widget-heading .elementor-heading-title {color: #0085ba;}
+.elementor-59 .elementor-element.elementor-element-58af018b:not(.elementor-motion-effects-element-type-background), .elementor-59 .elementor-element.elementor-element-58af018b > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #bcc1c6;}
 .elementor-59 .elementor-element.elementor-element-58af018b {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 10px 0px 0px 0px;}
 .elementor-59 .elementor-element.elementor-element-58af018b > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
-.elementor-59 .elementor-element.elementor-element-58af018b > .elementor-shape-top .elementor-shape-fill {fill: #bcc1c6;}
+.elementor-59 .elementor-element.elementor-element-58af018b > .elementor-shape-top .elementor-shape-fill {fill: #fff;}
 .elementor-59 .elementor-element.elementor-element-58af018b > .elementor-shape-top svg {width: calc(100% + 1.3px);height: 25px;}
 .elementor-59 .elementor-element.elementor-element-6caf26e6.elementor-widget-heading .elementor-heading-title {color: #0085ba;}
-.elementor-59 .elementor-element.elementor-element-3a2b001a:not(.elementor-motion-effects-element-type-background), .elementor-59 .elementor-element.elementor-element-3a2b001a > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #bcc1c6;}
+.elementor-59 .elementor-element.elementor-element-3a2b001a:not(.elementor-motion-effects-element-type-background), .elementor-59 .elementor-element.elementor-element-3a2b001a > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #fff;}
 .elementor-59 .elementor-element.elementor-element-3a2b001a {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 10px 0px 30px 0px;}
 .elementor-59 .elementor-element.elementor-element-3a2b001a > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
-.elementor-59 .elementor-element.elementor-element-3a2b001a > .elementor-shape-top .elementor-shape-fill {fill: #fff;}
+.elementor-59 .elementor-element.elementor-element-3a2b001a > .elementor-shape-top .elementor-shape-fill {fill: #bcc1c6;}
 .elementor-59 .elementor-element.elementor-element-3a2b001a > .elementor-shape-top svg {width: calc(100% + 1.3px);height: 25px;}
 .elementor-59 .elementor-element.elementor-element-3a2b001a > .elementor-shape-bottom .elementor-shape-fill {fill: #0085ba;}
 .elementor-59 .elementor-element.elementor-element-3a2b001a > .elementor-shape-bottom svg {width: calc(300% + 1.3px);height: 500px;}
@@ -62,10 +70,11 @@
 .elementor-59 .elementor-element.elementor-element-45287ad6 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-59 .elementor-element.elementor-element-3f94589f > .elementor-widget-container {padding: 0px 0px 20px 0px;}
 @media (max-width:1024px) {.elementor-59 .elementor-element.elementor-element-4e70ac4c > .elementor-widget-container {padding: 0px 0px 0px 0px;}
-	.elementor-59 .elementor-element.elementor-element-540b378d > .elementor-widget-container {padding: 0px 0px 0px 40px;}
-	.elementor-59 .elementor-element.elementor-element-51f0f171 > .elementor-widget-container {padding: 0px 0px 0px 65px;}
+	.elementor-59 .elementor-element.elementor-element-540b378d > .elementor-widget-container {margin: 0px -10px 0px 0px;padding: 0px 0px 0px 40px;}
+	.elementor-59 .elementor-element.elementor-element-51f0f171 > .elementor-widget-container {padding: 0px 0px 0px 90px;}
 	.elementor-59 .elementor-element.elementor-element-c189628 {padding: 0px 25px 0px 25px;}
 	.elementor-59 .elementor-element.elementor-element-3f444063 {padding: 25px 0px 0px 40px;}
+	.elementor-59 .elementor-element.elementor-element-0a9bd1d {padding: 25px 0px 0px 40px;}
 	.elementor-59 .elementor-element.elementor-element-a2ab12e > .elementor-shape-top svg {width: calc(100% + 1.3px);height: 25px;}
 	.elementor-59 .elementor-element.elementor-element-a2ab12e {padding: 10px 0px 0px 40px;}
 	.elementor-59 .elementor-element.elementor-element-58af018b > .elementor-shape-top svg {width: calc(100% + 1.3px);height: 25px;}
