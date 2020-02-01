@@ -26,6 +26,7 @@
 				'elementskit-woo-mini-cart.default': Elementskit.Mini_Cart,
 				'elementskit-team.default': Elementskit.Team,
 				'elementskit-image-accordion.default': Elementskit.Image_Accordion,
+				'elementskit-woo-product-carousel.default': Elementskit.Woo_Product_slider,
 			};
 			$.each(widgets, function (widget, callback) {
 				elementor.hooks.addAction('frontend/element_ready/' + widget, callback);
@@ -710,7 +711,7 @@
 			if ($scope.find('.ekit-modal-popup').length > 0) {
 				$scope.find('.ekit-modal-popup').magnificPopup({
 					type: 'inline',
-					fixedContentPos: false,
+					fixedContentPos: true,
 					fixedBgPos: true,
 					overflowY: 'auto',
 					closeBtnInside: false,
@@ -718,6 +719,12 @@
 					callbacks: {
 						beforeOpen: function () {
 							this.st.mainClass = "my-mfp-slide-bottom ekit-promo-popup";
+						},
+						open: function() {
+							jQuery('body').css('overflow', 'hidden');
+						},
+						close: function() {
+							jQuery('body').css('overflow', 'auto');
 						}
 					}
 				});
@@ -826,6 +833,47 @@
 					$(this).siblings().removeClass('active').end().addClass('active');
 				})
 			}
+		},
+
+		Woo_Product_slider: function($scope) {
+			let target = $scope.find('.ekit-swiper-container'),
+				autoplay = target.data('autoplay'),
+				loop = target.data('loop'),
+				speed = target.data('speed'),
+				spaceBetween = target.data('space-between'),
+				respoonsive_seetings = target.data('responsive-settings');
+			
+
+			new Swiper(target, {
+				navigation: {
+					nextEl: $scope.find('.ekit-navigation-next'),
+					prevEl: $scope.find('.ekit-navigation-prev'),
+				},
+				pagination: {
+				  el        : $scope.find('.ekit-swiper-pagination'),
+				  type      : 'bullets',
+				  clickable : true,
+				},
+				"autoplay"      : autoplay && autoplay,
+				"loop"          : loop && Boolean(loop),
+				"speed"         : speed && Number(speed),
+				"slidesPerView" : Number(respoonsive_seetings['ekit_columns_desktop']),
+				"spaceBetween"  : spaceBetween && Number(spaceBetween),
+				"breakpoints"   : {
+					"1024" : {
+						"slidesPerView" : Number(respoonsive_seetings['ekit_columns_desktop']),
+						"spaceBetween"  : spaceBetween && Number(spaceBetween),
+					},
+					"768" : {
+						"slidesPerView" : Number(respoonsive_seetings['ekit_columns_tablet']),
+						"spaceBetween"  : spaceBetween && Number(spaceBetween),
+					},
+					"640" : {
+						"slidesPerView" : $scope.data('settings') && Number($scope.data('settings')['ekit_columns_mobile']),
+						"spaceBetween"  : spaceBetween && Number(spaceBetween),
+					}
+				}
+			});
 		}
 	};
 	$(window).on('elementor/frontend/init', Elementskit.init);
