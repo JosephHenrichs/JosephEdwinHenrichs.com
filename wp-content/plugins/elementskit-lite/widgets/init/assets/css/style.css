@@ -1799,7 +1799,7 @@ body .ekit-wid-con .ekit-woo-category-list-container .woocommerce.columns-6 ul.p
 .ekit-wid-con .ekit-wc-carousel .ekit-slidenav-container .ekit-slidenav-next {right: 0;left: inherit;}
 .ekit-wid-con .ekit-wc-products.ekit-wc-carousel-desc-position-inside .ekit-wc-product-alignment-vertical .ekit-wc-product-desc {position: absolute;left: 50%;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);bottom: 0;width: 100%;}
 .ekit-wid-con .ekit-wc-products .ekit-wc-product-image img {width: 100%;height: auto;}
-.ekit-wid-con .ekit-wc-products .ekit-wc-product-image:before {content: "";position: absolute;left: 0;bottom: 0;width: 100%;height: 100%;}
+.ekit-wid-con .ekit-wc-products .ekit-wc-product-image .ekit_woo_product_img_link:before {content: "";position: absolute;left: 0;bottom: 0;width: 100%;height: 100%;}
 .ekit-wid-con .ekit-wc-product-price .price {margin-top: 0px;margin-bottom: 0px;}
 .ekit-wid-con .ekit-wc-product-price .price del {margin-right: 5px;display: inline-block;}
 .ekit-wid-con .ekit-wc-product-price .price ins, .ekit-wid-con .ekit-wc-product-price .price mark {background-color: transparent;}

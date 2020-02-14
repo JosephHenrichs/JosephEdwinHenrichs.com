@@ -78,10 +78,6 @@ jQuery(document).ready(function ($) {
 				if(hasHash !== -1 && (href.length > 1) && enable && (el.pathname == window.location.pathname)){
 					e.preventDefault();
 					$('.elementskit-menu-close').trigger('click');
-				} else {
-					if(e.target.className !== 'elementskit-submenu-indicator'){
-						window.location = href;
-					}
 				}
 		}
 	});
