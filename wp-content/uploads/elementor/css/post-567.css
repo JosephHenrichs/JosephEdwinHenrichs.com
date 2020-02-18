@@ -4,11 +4,17 @@
 .elementor-567 .elementor-element.elementor-element-468dffb {text-align: center;}
 .elementor-567 .elementor-element.elementor-element-468dffb.elementor-widget-heading .elementor-heading-title {color: #fff;}
 .elementor-567 .elementor-element.elementor-element-468dffb .elementor-heading-title {font-family: "Actor",Sans-serif;font-weight: 100;}
-.elementor-567 .elementor-element.elementor-element-f93d703 > .elementor-shape-top .elementor-shape-fill {fill: #0085ba;}
-.elementor-567 .elementor-element.elementor-element-f93d703 > .elementor-shape-top svg {width: calc(300% + 1.3px);height: 500px;}
-.elementor-567 .elementor-element.elementor-element-f93d703 > .elementor-shape-top {z-index: 2;pointer-events: none;}
-.elementor-567 .elementor-element.elementor-element-f93d703 {margin-top: 0px;margin-bottom: 0px;padding: 30px 0px 0px 0px;}
-.elementor-567 .elementor-element.elementor-element-c5c2570 > .elementor-shape-bottom .elementor-shape-fill {fill: #0085ba;}
-.elementor-567 .elementor-element.elementor-element-c5c2570 > .elementor-shape-bottom svg {width: calc(300% + 1.3px);height: 500px;}
-.elementor-567 .elementor-element.elementor-element-0656dbf > .elementor-widget-container {padding: 30px 0px 30px 0px;}
-.elementor-567 .elementor-element.elementor-element-0dad5b1 > .elementor-widget-container {padding: 30px 0px 30px 0px;}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .portfolio-item {padding: 3px;}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .portfolio-filter>li>a {color: #404040;}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .portfolio-filter {text-align: center;margin-bottom: 3px;}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .portfolio-filter.slash > li .filter-slash {color: #404040;}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .portfolio-filter.slash > li a.mixitup-control-active, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .portfolio-filter.slash > li a.active, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .portfolio-filter.slash > li a:hover {color: #056ddc;}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .portfolio-item .title {color: #fff;}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-4 .overlay .portfolio-content .title:before {background: #fff;}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .portfolio-item .desc {color: #fff;}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio #hover-1 .portfolio-item .portfolio-buttons a, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-2 .portfolio-btn a, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-3 .effect-3 .external-link li a {border-radius: 40px 40px 40px 40px;}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio #hover-1 .portfolio-item .portfolio-buttons a, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-2 .portfolio-btn a, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-3 .effect-3 .external-link li a {color: rgba(5,109,220,0);}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio #hover-1 .portfolio-item .portfolio-buttons a, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-2 .portfolio-btn a, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-3 .effect-3 .external-link li a {background-color: rgba(255,255,255,0);}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio #hover-1 .portfolio-item .portfolio-buttons a:hover, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-2 .portfolio-btn a:hover, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-3 .effect-3 .external-link li a:hover {color: rgba(255,255,255,0);}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio #hover-1 .portfolio-item .portfolio-buttons a:hover, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-3 .effect-3 .external-link li a:hover, .elementor-567 .elementor-element.elementor-element-7d6e8c5 .tgx-portfolio .hover-2 .portfolio-btn a:hover {background-color: rgba(5,109,220,0);}
+.elementor-567 .elementor-element.elementor-element-7d6e8c5 > .elementor-widget-container {padding: 0px 0px 0px 0px;}
