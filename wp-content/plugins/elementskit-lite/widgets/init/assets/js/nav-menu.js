@@ -28,11 +28,10 @@ jQuery(document).ready(function ($) {
 
 	elementskit_event_manager('click', '.elementskit-dropdown-has > a', function (e) {
 		if(e.target.className === 'elementskit-submenu-indicator') {
+			e.preventDefault();
+			
 			var winW = jQuery(window).width();
-			if(winW < 992){
-				e.preventDefault();
-			}
-
+			
 			var menu = $(this).parents('.elementskit-navbar-nav');
 			var li = $(this).parent();
 			var dropdown = li.find('>.elementskit-dropdown, >.elementskit-megamenu-panel');
@@ -77,7 +76,7 @@ jQuery(document).ready(function ($) {
 
 				if(hasHash !== -1 && (href.length > 1) && enable && (el.pathname == window.location.pathname)){
 					e.preventDefault();
-					$('.elementskit-menu-close').trigger('click');
+					self.parents('.ekit-wid-con').find('.elementskit-menu-close').trigger('click');
 				}
 		}
 	});

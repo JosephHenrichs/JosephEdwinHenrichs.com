@@ -384,6 +384,7 @@
 				var centerMode = $(this).data('data-center_mode') === 'yes' ? true : false;
 
 				$(this).not('.slick-initialized').slick({
+					rtl: $(this).data('rtl') ? true : false,
 					slidesToShow: ($(this).data('slidestoshow') !== 'undefined') ? $(this).data('slidestoshow') : 4,
 					slidesToScroll: ($(this).data('slidestoscroll') !== 'undefined') ? $(this).data('slidestoscroll') : 4,
 					autoplay: ($(this).data('autoplay') !== 'undefined') ? autoPlay : true,
@@ -442,6 +443,7 @@
 
 
 				$(this).not('.slick-initialized').slick({
+					rtl: ($(this).data('rtl') !== 'undefined') ? $(this).data('rtl') : false,
 					slidesToShow: ($(this).data('slidestoshow') !== 'undefined') ? $(this).data('slidestoshow') : 1,
 					slidesToScroll: ($(this).data('slidestoscroll') !== 'undefined') ? $(this).data('slidestoscroll') : 1,
 					autoplay: ($(this).data('autoplay') !== 'undefined') ? autoPlay : true,
@@ -548,11 +550,12 @@
 			if ($container.length > 0) {
 				var colWidth = function colWidth() {
 						var w = $container.width(),
+							windowWidth = $(window).width(),
 							columnNum,
 							columnWidth = 0;
-						if (w > 1024) {
+						if (windowWidth > 1024) {
 							columnNum = parseInt(column.desktop, 10);
-						} else if (w > 768) {
+						} else if (windowWidth >= 768) {
 							columnNum = parseInt(column.tablet, 10);
 						}
 						columnWidth = Math.floor(w / columnNum);

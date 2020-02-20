@@ -5,22 +5,20 @@
 .elementor-8 .elementor-element.elementor-element-bfc4cc0.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap {align-content: space-around;align-items: space-around;}
 .elementor-8 .elementor-element.elementor-element-bfc4cc0.elementor-column > .elementor-column-wrap > .elementor-widget-wrap {justify-content: flex-start;}
 .elementor-8 .elementor-element.elementor-element-bfc4cc0 > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {margin-bottom: 0px;}
-.elementor-8 .elementor-element.elementor-element-bfc4cc0:not(.elementor-motion-effects-element-type-background) > .elementor-element-populated, .elementor-8 .elementor-element.elementor-element-bfc4cc0 > .elementor-column-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: rgba(255,255,255,.85);}
+.elementor-8 .elementor-element.elementor-element-bfc4cc0:not(.elementor-motion-effects-element-type-background) > .elementor-column-wrap, .elementor-8 .elementor-element.elementor-element-bfc4cc0 > .elementor-column-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: rgba(255,255,255,.85);}
 .elementor-8 .elementor-element.elementor-element-bfc4cc0 > .elementor-element-populated, .elementor-8 .elementor-element.elementor-element-bfc4cc0 > .elementor-element-populated > .elementor-background-overlay, .elementor-8 .elementor-element.elementor-element-bfc4cc0 > .elementor-background-slideshow {border-radius: 0px 45px 45px 0px;}
 .elementor-8 .elementor-element.elementor-element-bfc4cc0 > .elementor-element-populated {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 20px 30px 20px 30px;}
 .elementor-8 .elementor-element.elementor-element-bfc4cc0 > .elementor-element-populated > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-8 .elementor-element.elementor-element-b25a930 {text-align: center;}
-.elementor-8 .elementor-element.elementor-element-b25a930.elementor-widget-heading .elementor-heading-title {color: #7a7a7a;}
-.elementor-8 .elementor-element.elementor-element-b25a930 .elementor-heading-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
+.elementor-8 .elementor-element.elementor-element-b25a930 .elementor-heading-title {color: #7a7a7a;font-family: "ABeeZee",Sans-serif;font-weight: 100;}
 .elementor-8 .elementor-element.elementor-element-b25a930 > .elementor-widget-container {border-radius: 0px 0px 0px 0px;}
 .elementor-8 .elementor-element.elementor-element-90a42e4 {text-align: center;}
-.elementor-8 .elementor-element.elementor-element-90a42e4.elementor-widget-heading .elementor-heading-title {color: #7a7a7a;}
-.elementor-8 .elementor-element.elementor-element-90a42e4 .elementor-heading-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
+.elementor-8 .elementor-element.elementor-element-90a42e4 .elementor-heading-title {color: #7a7a7a;font-family: "ABeeZee",Sans-serif;font-weight: 100;}
 .elementor-8 .elementor-element.elementor-element-0338f4d:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-0338f4d > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #0085ba;}
 .elementor-8 .elementor-element.elementor-element-0338f4d {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
 .elementor-8 .elementor-element.elementor-element-0338f4d > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-8 .elementor-element.elementor-element-e94b07a {text-align: center;}
-.elementor-8 .elementor-element.elementor-element-e94b07a.elementor-widget-heading .elementor-heading-title {color: #fff;}
+.elementor-8 .elementor-element.elementor-element-e94b07a .elementor-heading-title {color: #fff;}
 .elementor-8 .elementor-element.elementor-element-1b75300d {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;margin-top: 0px;margin-bottom: 0px;padding: 35px 0px 0px 0px;}
 .elementor-8 .elementor-element.elementor-element-1b75300d > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-8 .elementor-element.elementor-element-1b75300d > .elementor-shape-top .elementor-shape-fill {fill: #0085ba;}

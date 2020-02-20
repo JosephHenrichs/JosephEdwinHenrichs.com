@@ -78,3 +78,9 @@ svg:not(:root).svg-inline--fa {overflow: visible;}
 .fa-inverse {color: #fff;}
 .sr-only {border: 0;clip: rect(0,0,0,0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
 .sr-only-focusable:active, .sr-only-focusable:focus {clip: auto;height: auto;margin: 0;overflow: visible;position: static;width: auto;}
+.svg-inline--fa .fa-primary {fill: var(--fa-primary-color,currentColor);opacity: 1;opacity: var(--fa-primary-opacity,1);}
+.svg-inline--fa .fa-secondary {fill: var(--fa-secondary-color,currentColor);opacity: .4;opacity: var(--fa-secondary-opacity,.4);}
+.svg-inline--fa.fa-swap-opacity .fa-primary {opacity: .4;opacity: var(--fa-secondary-opacity,.4);}
+.svg-inline--fa.fa-swap-opacity .fa-secondary {opacity: 1;opacity: var(--fa-primary-opacity,1);}
+.svg-inline--fa mask .fa-primary, .svg-inline--fa mask .fa-secondary {fill: black;}
+.fad.fa-inverse {color: #fff;}
