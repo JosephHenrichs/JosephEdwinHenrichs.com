@@ -1,7 +1,6 @@
 .customize-control-radio-image .ui-buttonset {text-align: center;}
 .customize-control-radio-image label {display: inline-block;float: left;box-sizing: border-box;max-width: 33.3%;height: auto;padding: 3px;border-width: 0;border-radius: 0;color: inherit;background: none;box-shadow: none;font-size: inherit;line-height: inherit;vertical-align: inherit;white-space: nowrap;cursor: pointer;-webkit-appearance: none;}
 .customize-control-radio-image label:first-of-type {float: left;}
-.customize-control-radio-image label:nth-of-type(n + 3) {float: right;}
 .customize-control-radio-image label:hover {border-color: inherit;color: inherit;background: none;}
 .customize-control-radio-image label:active {border-color: inherit;background: none;box-shadow: none;-webkit-transform: none;-ms-transform: none;transform: none;}
 .customize-control-radio-image img {border: 1px solid transparent;}

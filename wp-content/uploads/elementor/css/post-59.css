@@ -86,7 +86,7 @@
 .elementor-59 .elementor-element.elementor-element-2104244 > .elementor-widget-container {padding: 0px 0px 0px 0px;}
 .elementor-59 .elementor-element.elementor-element-b3796a0 .elementor-text-editor {text-align: center;}
 .elementor-59 .elementor-element.elementor-element-212ed80 .elementor-image img {filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);}
-.elementor-59 .elementor-element.elementor-element-212ed80 > .elementor-widget-container {border-style: double;border-width: 10px 10px 10px 10px;border-color: #0085ba;border-radius: 20px 20px 20px 20px;}
+.elementor-59 .elementor-element.elementor-element-212ed80 > .elementor-widget-container {padding: 10px 10px 10px 10px;background-image: url("https://josephedwinhenrichs.com/wp-content/uploads/2020/02/20190419_234029-scaled.jpg");background-position: center center;background-repeat: no-repeat;border-style: double;border-width: 10px 10px 10px 10px;border-color: #0085ba;border-radius: 20px 20px 20px 20px;}
 .elementor-59 .elementor-element.elementor-element-45976026 {text-align: center;}
 .elementor-59 .elementor-element.elementor-element-45976026 .elementor-heading-title {color: #0085ba;}
 .elementor-59 .elementor-element.elementor-element-45976026 > .elementor-widget-container {padding: 0px 0px 0px 0px;}
@@ -102,10 +102,11 @@
 .elementor-59 .elementor-element.elementor-element-329a801 {text-align: center;}
 .elementor-59 .elementor-element.elementor-element-329a801 .elementor-heading-title {color: #0085ba;}
 .elementor-59 .elementor-element.elementor-element-329a801 > .elementor-widget-container {padding: 0px 0px 0px 0px;}
+.elementor-59 .elementor-element.elementor-element-85e99a6 > .elementor-widget-container {padding: 10px 10px 10px 10px;border-style: double;border-width: 10px 10px 10px 10px;border-color: #0085ba;border-radius: 20px 20px 20px 20px;}
 .elementor-59 .elementor-element.elementor-element-0e7468b {text-align: center;}
 .elementor-59 .elementor-element.elementor-element-0e7468b .elementor-heading-title {color: #0085ba;}
 .elementor-59 .elementor-element.elementor-element-0e7468b > .elementor-widget-container {padding: 0px 0px 0px 0px;}
-.elementor-59 .elementor-element.elementor-element-85e99a6 > .elementor-widget-container {border-style: double;border-width: 10px 10px 10px 10px;border-color: #0085ba;border-radius: 20px 20px 20px 20px;}
+.elementor-59 .elementor-element.elementor-element-fcb9c69 > .elementor-widget-container {padding: 10px 10px 10px 10px;background-image: url("https://josephedwinhenrichs.com/wp-content/uploads/2020/02/EM7xAuFQ-e1581938095888.jpeg");background-position: center center;background-repeat: no-repeat;border-style: double;border-width: 10px 10px 10px 10px;border-color: #0085ba;border-radius: 20px 20px 20px 20px;}
 .elementor-59 .elementor-element.elementor-element-2b3ed695:not(.elementor-motion-effects-element-type-background), .elementor-59 .elementor-element.elementor-element-2b3ed695 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #fff;}
 .elementor-59 .elementor-element.elementor-element-2b3ed695 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 10px 0px 30px 0px;}
 .elementor-59 .elementor-element.elementor-element-2b3ed695 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
@@ -136,6 +137,8 @@
 .elementor-59 .elementor-element.elementor-element-5b521713 .elementor-text-editor {text-align: center;}
 .elementor-59 .elementor-element.elementor-element-5b521713 {color: #fff;}
 .elementor-59 .elementor-element.elementor-element-365cfd68 .elementor-text-editor {text-align: center;}
+@media (min-width:1025px) {.elementor-59 .elementor-element.elementor-element-212ed80 > .elementor-widget-container {background-attachment: fixed;}
+	.elementor-59 .elementor-element.elementor-element-fcb9c69 > .elementor-widget-container {background-attachment: fixed;}}
 @media (max-width:1024px) {.elementor-59 .elementor-element.elementor-element-3ca68697 > .elementor-widget-container {padding: 0px 0px 0px 0px;}
 	.elementor-59 .elementor-element.elementor-element-265da148 > .elementor-widget-container {margin: 0px 0px 0px 50px;padding: 0px 0px 0px 0px;}
 	.elementor-59 .elementor-element.elementor-element-6a7dee07 > .elementor-widget-container {margin: 0px 0px 0px 73px;padding: 0px 0px 0px 0px;}
@@ -161,14 +164,17 @@
 	.elementor-59 .elementor-element.elementor-element-2104244 {text-align: center;}
 	.elementor-59 .elementor-element.elementor-element-2104244 > .elementor-widget-container {padding: 0px 0px 0px 0px;}
 	.elementor-59 .elementor-element.elementor-element-b3796a0 > .elementor-widget-container {padding: 0px 0px 0px 0px;}
+	.elementor-59 .elementor-element.elementor-element-212ed80 > .elementor-widget-container {padding: 4px 4px 4px 4px;}
 	.elementor-59 .elementor-element.elementor-element-45976026 {text-align: center;}
 	.elementor-59 .elementor-element.elementor-element-45976026 > .elementor-widget-container {padding: 0px 0px 0px 0px;}
 	.elementor-59 .elementor-element.elementor-element-c7f3416 > .elementor-shape-top svg {width: calc(100% + 1.3px);height: 25px;}
 	.elementor-59 .elementor-element.elementor-element-c7f3416 {padding: 25px 37px 0px 40px;}
 	.elementor-59 .elementor-element.elementor-element-329a801 {text-align: center;}
 	.elementor-59 .elementor-element.elementor-element-329a801 > .elementor-widget-container {padding: 0px 0px 0px 0px;}
+	.elementor-59 .elementor-element.elementor-element-85e99a6 > .elementor-widget-container {padding: 5px 5px 5px 5px;}
 	.elementor-59 .elementor-element.elementor-element-0e7468b {text-align: center;}
 	.elementor-59 .elementor-element.elementor-element-0e7468b > .elementor-widget-container {padding: 0px 0px 0px 0px;}
+	.elementor-59 .elementor-element.elementor-element-fcb9c69 > .elementor-widget-container {padding: 5px 5px 5px 5px;background-image: url("https://josephedwinhenrichs.com/wp-content/uploads/2020/02/EM7xAuFQ-e1581938095888.jpeg");}
 	.elementor-59 .elementor-element.elementor-element-2b3ed695 > .elementor-shape-top svg {width: calc(100% + 1.3px);height: 25px;}
 	.elementor-59 .elementor-element.elementor-element-2b3ed695 {padding: 25px 37px 0px 40px;}
 	.elementor-59 .elementor-element.elementor-element-8e736f8 {text-align: center;}

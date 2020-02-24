@@ -1,3 +1,6 @@
+.neve-preset-selector a {margin: 10px 0 0;border-radius: 3px;border: 1px solid #ccc;display: flex;opacity: .75;transition: .3s ease;cursor: pointer;overflow: hidden;}
+.neve-preset-selector a:hover {opacity: 1;}
+#sub-accordion-panel-hfg_header #accordion-section-neve_header_presets {display: list-item !important;}
 #customize-theme-controls .components-circular-option-picker__option:focus:after, #customize-theme-controls .components-color-palette__item:focus:after {top: -4px;left: -4px;}
 .neve-white-background-control {border: 1px solid #ccc;padding: 10px;background: #fff;}
 .neve-color-preview {width: 20px;border-radius: 3px;border: 1px solid #767676;height: 15px;left: 3px;top: -20px;float: left;position: relative;}
@@ -73,7 +76,7 @@
 @keyframes neve-spin {100% {-webkit-transform: rotate(360deg);transform: rotate(360deg);}}
 .neve-radio-icons:not(:last-child), .neve-font-family-control:not(:last-child) {margin-bottom: 10px;}
 .neve-number-control-wrap:not(:last-child) {margin-bottom: 10px;}
-.neve-toggle-control > .components-base-control__field, .neve-toggle-control label {margin-bottom: 0 !important;}
+.neve-toggle-control>.components-base-control__field, .neve-toggle-control label {margin-bottom: 0 !important;}
 .neve-range-control .components-base-control__field {flex-direction: row;}
 .neve-range-control .components-base-control__field .components-range-control__slider {width: 70%;}
 .neve-range-control .components-base-control__field .components-range-control__number {width: 25%;margin-left: 5%;}
@@ -88,12 +91,12 @@
 .neve-responsive-sizing {display: flex;}
 .neve-responsive-sizing.single-input .nv-sizing-item {width: 80%;}
 .neve-responsive-sizing.single-input .nv-sizing-item:last-child {width: 100%;}
-.neve-responsive-sizing.single-input .nv-sizing-item:last-child > input {border-radius: 3px;}
+.neve-responsive-sizing.single-input .nv-sizing-item:last-child>input {border-radius: 3px;}
 .neve-responsive-sizing button:last-child {border-bottom-right-radius: 3px;border-top-right-radius: 3px;}
 .neve-responsive-sizing .nv-sizing-item {width: 20%;}
 .neve-responsive-sizing .nv-sizing-item:first-child input {border-top-left-radius: 3px;border-bottom-left-radius: 3px;}
 .neve-responsive-sizing .nv-sizing-item:not(:first-child) {margin-left: -1px;}
-.neve-responsive-sizing .nv-sizing-item > input {border: 1px solid #999;border-radius: 0;min-height: 30px;}
+.neve-responsive-sizing .nv-sizing-item>input {border: 1px solid #999;border-radius: 0;min-height: 30px;}
 .neve-responsive-sizing button {margin-left: -1px;border-radius: 0;border: 1px solid #999;height: 30px;padding: 3px;flex-grow: 1;align-items: center;justify-content: center;background: transparent;color: #555d66;}
 .neve-responsive-sizing button:focus, .neve-responsive-sizing button:active {background: inherit;border-color: inherit;color: inherit;outline: none;box-shadow: none;}
 .neve-responsive-sizing button.active, .neve-responsive-sizing button.active:hover, .neve-responsive-sizing button.active:focus:enabled {box-shadow: none !important;outline: none !important;background: #555d66 !important;border-color: #555d66 !important;color: #fff !important;}
@@ -109,10 +112,12 @@
 .large-buttons .neve-radio-icons button {height: 45px;}
 .large-buttons .neve-radio-icons button svg {width: 50px;height: 30px;}
 .neve-has-dynamic-tag-selector {position: relative;}
-.neve-has-dynamic-tag-selector > input {padding-right: 30px;}
+.neve-has-dynamic-tag-selector>input {padding-right: 30px;}
 .neve-has-dynamic-tag-selector.customize-control-textarea .neve-dynamic-tag-selector {bottom: 80px;}
 .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector {position: absolute;bottom: 0;right: 0;}
 .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu {padding: 0 !important;}
 .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu button svg {opacity: .75;}
 .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu button:hover, .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu button:active {border-color: transparent !important;box-shadow: none !important;background: transparent !important;}
 .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu button:hover svg, .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu button:active svg {opacity: 1;}
+.components-icon-button .svg-text {fill: #fff;}
+.components-icon-button.active .svg-text {fill: #555d66;}
