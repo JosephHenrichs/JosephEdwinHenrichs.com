@@ -40,9 +40,8 @@
 #editor .block-editor-page .editor-styles-wrapper .editor-writing-flow .wp-block-pullquote blockquote {margin: 1em auto;}
 #editor .block-editor-page .editor-styles-wrapper .editor-writing-flow .wp-block-pullquote blockquote > .editor-rich-text p {margin: 0 0 20px 0;font-size: 2em;}
 #editor .block-editor-page .editor-styles-wrapper .editor-writing-flow .wp-block-pullquote blockquote .wp-block-pullquote__citation {padding-top: 20px;font-size: .85em;}
-#editor .edit-post-layout__content .editor-styles-wrapper {margin: 0 auto;width: 100%;}
-#editor .edit-post-layout__content .editor-styles-wrapper .editor-post-title .wp-block {max-width: 100%;}
-#editor .edit-post-layout__content .editor-styles-wrapper .wp-block {max-width: 100%;}
+#editor .editor-styles-wrapper {margin: 0 auto;width: 100%;}
+#editor .editor-styles-wrapper .wp-block {max-width: 100%;}
 #editor .block-editor-block-preview__container .wp-block {text-align: center;}
 @media (min-width: 769px) {#editor .editor-styles-wrapper {font-size: 16px;}
 	#editor .editor-styles-wrapper .editor-writing-flow h1, #editor .editor-styles-wrapper .editor-post-title__block .editor-post-title__input {font-size: 2em;}

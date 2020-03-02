@@ -66,7 +66,7 @@ jQuery(document).ready(function ($) {
 	
 	// hash menu click to hide menu sidebar
 	elementskit_event_manager('click', '.elementskit-navbar-nav li a', function(e){
-		if($(this).attr('href')){
+		if($(this).attr('href') && e.target.className !== 'elementskit-submenu-indicator'){
 			var self = $(this),
 				el = self.get(0),
 				href =  el.href,

@@ -415,6 +415,11 @@
 .elementor-widget-eael-dual-color-header .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
 .elementor-widget-eael-dual-color-header .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
 .elementor-widget-eael-dual-color-header .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-eael-event-calendar .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-eael-event-calendar .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-eael-event-calendar .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-eael-event-calendar .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-eael-event-calendar .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
 .elementor-widget-eael-facebook-feed .eael-facebook-feed-card .eael-facebook-feed-item .eael-facebook-feed-item-inner .eael-facebook-feed-item-header .eael-facebook-feed-item-user .eael-facebook-feed-username {font-family: "Trebuchet MS",Sans-serif;font-weight: 100;}
 .elementor-widget-eael-facebook-feed .eael-facebook-feed-card .eael-facebook-feed-item .eael-facebook-feed-item-inner .eael-facebook-feed-item-header .eael-facebook-feed-post-time {font-family: "Trebuchet MS",Sans-serif;font-weight: 100;}
 .elementor-widget-eael-facebook-feed .eael-facebook-feed-card .eael-facebook-feed-item .eael-facebook-feed-item-inner .eael-facebook-feed-item-content .eael-facebook-feed-message {font-family: "Trebuchet MS",Sans-serif;font-weight: 100;}
@@ -469,9 +474,10 @@
 .elementor-widget-eael-fluentform .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
 .elementor-widget-eael-gravity-form .eael-gravity-form .gform_wrapper .gform_title, .elementor-widget-eael-gravity-form .eael-gravity-form .eael-gravity-form-title {font-family: "Roboto",Sans-serif;}
 .elementor-widget-eael-gravity-form .eael-gravity-form .gform_wrapper .gform_description, .elementor-widget-eael-gravity-form .eael-gravity-form .eael-gravity-form-description {font-family: "Roboto",Sans-serif;}
-.elementor-widget-eael-gravity-form .eael-gravity-form .gfield input[type="text"], .elementor-widget-eael-gravity-form .eael-gravity-form .gfield textarea, .elementor-widget-eael-gravity-form .eael-gravity-form .gfield select {font-family: "Roboto",Sans-serif;}
 .elementor-widget-eael-gravity-form .eael-gravity-form .gfield.gsection .gsection_title {font-family: "Roboto",Sans-serif;}
-.elementor-widget-eael-gravity-form .eael-gravity-form .gform_footer input[type="submit"] {font-family: "Roboto",Sans-serif;}
+.elementor-widget-eael-gravity-form .eael-gravity-form .gform_footer input[type="submit"], .elementor-widget-eael-gravity-form .eael-gravity-form .gform_body .gform_page_footer input[type="submit"] {font-family: "Roboto",Sans-serif;}
+.elementor-widget-eael-gravity-form .eael-gravity-form .gform_body .gform_page_footer input[type="button"] {font-family: "Roboto",Sans-serif;}
+.elementor-widget-eael-gravity-form .eael-gravity-form .gform_confirmation_wrapper .gform_confirmation_message {font-family: "Roboto",Sans-serif;}
 .elementor-widget-eael-gravity-form .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-eael-gravity-form .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-eael-gravity-form .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -1180,6 +1186,11 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-trailer-box .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
 .elementor-widget-bdt-trailer-box .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
 .elementor-widget-bdt-trailer-box .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-bdt-twitter-grid .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-bdt-twitter-grid .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-bdt-twitter-grid .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-bdt-twitter-grid .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-bdt-twitter-grid .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
 .elementor-widget-elementskit-image-accordion .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-elementskit-image-accordion .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-elementskit-image-accordion .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}

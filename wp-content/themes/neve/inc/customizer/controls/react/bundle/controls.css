@@ -13,9 +13,10 @@
 .neve-button-appearance-control .neve-radio-icons button .button-outline-svg rect {fill: none;stroke: #555d66;stroke-miterlimit: 10;}
 .neve-button-appearance-control .neve-radio-icons button.active .button-filled-svg path {fill: #555d66;}
 .neve-button-appearance-control .neve-radio-icons button.active .button-outline-svg rect {fill: none;stroke: #fff;stroke-miterlimit: 10;}
+.neve-color-control .components-tooltip {display: none !important;}
 .customize-control-neve_background_control, .neve-button-appearance-control {margin-bottom: 20px;}
 .customize-control-neve_background_control .components-color-picker__inputs-toggle, .neve-button-appearance-control .components-color-picker__inputs-toggle {margin-left: auto;}
-.customize-control-neve_background_control .components-tooltip.components-popover, .neve-button-appearance-control .components-tooltip.components-popover {display: none;}
+.customize-control-neve_background_control .components-tooltip.components-popover, .neve-button-appearance-control .components-tooltip.components-popover {display: none !important;}
 .customize-control-neve_background_control .components-color-picker__inputs-field, .neve-button-appearance-control .components-color-picker__inputs-field {margin: 0;}
 .customize-control-neve_background_control .components-color-picker__inputs-wrapper, .neve-button-appearance-control .components-color-picker__inputs-wrapper {display: flex;align-items: flex-end;}
 .customize-control-neve_background_control .components-color-picker__inputs-wrapper .components-base-control__label, .neve-button-appearance-control .components-color-picker__inputs-wrapper .components-base-control__label {margin: 0;}
@@ -119,5 +120,5 @@
 .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu button svg {opacity: .75;}
 .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu button:hover, .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu button:active {border-color: transparent !important;box-shadow: none !important;background: transparent !important;}
 .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu button:hover svg, .neve-has-dynamic-tag-selector .neve-dynamic-tag-selector .components-dropdown-menu button:active svg {opacity: 1;}
-.components-icon-button .svg-text {fill: #fff;}
-.components-icon-button.active .svg-text {fill: #555d66;}
+.components-icon-button .svg-text, .components-button .svg-text {fill: #fff;}
+.components-icon-button.active .svg-text, .components-button.active .svg-text {fill: #555d66;}
