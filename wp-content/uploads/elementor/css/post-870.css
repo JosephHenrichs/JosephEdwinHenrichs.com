@@ -2,7 +2,8 @@
 .elementor-870 .elementor-element.elementor-element-fff5101 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
 .elementor-870 .elementor-element.elementor-element-fff5101 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-870 .elementor-element.elementor-element-468dffb {text-align: center;}
-.elementor-870 .elementor-element.elementor-element-468dffb .elementor-heading-title {color: #fff;font-family: "Actor",Sans-serif;font-weight: 100;}
+.elementor-870 .elementor-element.elementor-element-468dffb.elementor-widget-heading .elementor-heading-title, .elementor-870 .elementor-element.elementor-element-468dffb.elementor-widget-heading .elementor-heading-title.elementor-heading-title a {color: #fff;}
+.elementor-870 .elementor-element.elementor-element-468dffb .elementor-heading-title {font-family: "Actor",Sans-serif;font-weight: 100;}
 .elementor-870 .elementor-element.elementor-element-d7776c8 > .elementor-shape-top .elementor-shape-fill {fill: #0085ba;}
 .elementor-870 .elementor-element.elementor-element-d7776c8 > .elementor-shape-top svg {width: calc(300% + 1.3px);height: 500px;}
 .elementor-870 .elementor-element.elementor-element-d7776c8 > .elementor-shape-bottom .elementor-shape-fill {fill: #0085ba;}
