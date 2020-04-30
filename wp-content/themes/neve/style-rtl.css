@@ -608,7 +608,6 @@ body.menu_sidebar_slide_left.menu_sidebar_dropdown:before {display: none;}
 .header-menu-sidebar-inner #mega-menu-wrap-primary .mega-menu-toggle {display: none;}
 .header-menu-sidebar-inner #mega-menu-wrap-primary .mega-menu-toggle + #mega-menu-primary {display: block;}
 @media (min-width: 960px) {.mega-menu-primary .nav-menu-primary {width: 100%;}
-	.mega-menu-primary .nav-menu-primary #mega-menu-wrap-primary #mega-menu-primary.max-mega-menu {display: flex;align-items: center;justify-content: flex-end;flex-wrap: wrap;}
 	.style-border-top ul > li:not(.menu-item-nav-search):not(.menu-item-nav-cart) > a:after, .style-border-bottom ul > li:not(.menu-item-nav-search):not(.menu-item-nav-cart) > a:after, .style-full-height ul > li:not(.menu-item-nav-search):not(.menu-item-nav-cart) > a:after {position: absolute;content: "";display: block;margin: 0 auto;width: 0;height: 2px;background-color: #0366d6;transition: opacity .3s ease,width .3s ease;left: 0;right: 0;pointer-events: none;}}
 .nav-toggle-label {margin-left: 5px;line-height: 100%;}
 .icon-bar {transition: all .1s ease;position: relative;display: block;border-radius: 2px;width: 15px;height: 2px;}

@@ -47,7 +47,8 @@
 .woocommerce.single #tab-description ol, .woocommerce.single #tab-description ul, .woocommerce.single .entry-summary ol, .woocommerce.single .entry-summary ul {padding-right: 20px;margin-bottom: 20px;}
 .woocommerce.single #tab-description ol li, .woocommerce.single #tab-description ul li, .woocommerce.single .entry-summary ol li, .woocommerce.single .entry-summary ul li {margin-bottom: 10px;}
 .woocommerce.single .quantity input {padding-left: 4px !important;padding-right: 4px !important;box-sizing: border-box;line-height: normal;}
-.woocommerce.single .entry-summary>form.cart {display: flex;align-items: center;}
+.woocommerce.single .woocommerce-variation-add-to-cart {display: flex;align-items: center;flex-wrap: wrap;}
+.woocommerce.single .entry-summary>form.cart {display: flex;align-items: center;flex-wrap: wrap;}
 .woocommerce.single .entry-summary>form.cart>a, .woocommerce.single .entry-summary>form.cart>button {align-self: center;}
 .woocommerce.single .entry-summary>form.cart .single_variation_wrap {width: 100%;}
 .woocommerce.single .entry-summary>form.cart .wc-forward {margin-right: 4px;flex-basis: 50%;}
@@ -57,7 +58,7 @@
 .woocommerce.single .entry-summary>form.cart .group_table td label {margin-bottom: 0;}
 .woocommerce.single .entry-summary>form.cart .woocommerce-variation-add-to-cart {display: flex;align-items: center;}
 .woocommerce.single .entry-summary>form.cart .woocommerce-grouped-product-list {width: 100%;}
-.single_add_to_cart_button {width: 100%;}
+.single_add_to_cart_button {width: auto;flex-grow: 1;}
 .product_meta {font-size: .85em;}
 .product_meta a {color: #676767;}
 .product_meta>span {display: block;}
@@ -70,10 +71,10 @@
 .woocommerce div.product form.cart .variations td.label {padding: 0;}
 .woocommerce div.product form.cart .variations tr:not(:last-child) {margin-bottom: 10px;display: block;}
 .woocommerce .reset_variations {display: block;color: #676767;}
-.variations select {width: 100%;}
+.variations select {width: 100%;height: auto;}
 .woocommerce div.product .woocommerce-tabs ul.tabs li {background: 0 0;border: 0;margin: 0 0 0 20px;padding: 0;}
 .woocommerce div.product .woocommerce-tabs ul.tabs li:after, .woocommerce div.product .woocommerce-tabs ul.tabs li:before {content: none;}
-.woocommerce div.product .woocommerce-tabs ul.tabs li.active {border-bottom: 2px solid;}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {background-color: transparent;border-bottom: 2px solid;}
 .woocommerce div.product .woocommerce-tabs ul.tabs li a {color: #676767;}
 .woocommerce #content div.product .woocommerce-tabs ul.tabs {padding: 0;border: 0;}
 .woocommerce #content div.product .woocommerce-tabs ul.tabs:before {content: none;}
@@ -261,7 +262,7 @@ body.woocommerce-account .woocommerce-form-login .form-row:not(.woocommerce-form
 @media (min-width:576px) {.woocommerce-notices-wrapper>div {flex-direction: row-reverse;text-align: right;padding-right: 45px;}
 	.woocommerce-notices-wrapper>div:before {display: flex;top: 0;align-items: center;height: 100%;}
 	.woocommerce-notices-wrapper>div .button {margin-top: 0;width: auto;}}
-@media (min-width:769px) {.single_add_to_cart_button {width: auto;}
+@media (min-width:769px) {.single_add_to_cart_button {flex-grow: 0;}
 	.variations select {width: 75%;}
 	.woocommerce #review_form .comment-reply-title, .woocommerce .woocommerce-Tabs-panel h2 {font-size: 1.25em;}
 	.woocommerce #review_form .comment-form {grid-template-columns: repeat(2,1fr);}
@@ -299,6 +300,7 @@ body.woocommerce-account .woocommerce-form-login .form-row:not(.woocommerce-form
 	.woocommerce .cart_totals table.shop_table tbody td, .woocommerce .cart_totals table.shop_table tbody th {vertical-align: top;border-bottom: 0;border-top: 1px solid #f0f0f0;}
 	.woocommerce .cart_totals table.shop_table tbody #shipping_method {margin-top: 0;}
 	.woocommerce.single .entry-summary>form.cart .wc-forward {flex-basis: auto;}
+	.variations select {height: 35px;}
 	.woocommerce-ordering {margin-right: 0;}
 	.nv-woo-filters .nv-sidebar-toggle+.woocommerce-ordering {margin: 0;}
 	.woocommerce-checkout form.woocommerce-checkout {display: block;}
