@@ -1,4 +1,6 @@
 .neve-control-header {margin-bottom: 7px;}
+.flex-contents {display: flex;align-items: center;}
+.flex-contents .neve-responsive-control-bar {margin-left: auto;}
 .neve-white-background-control .customize-control-description {margin-bottom: 0 !important;margin-top: 10px !important;}
 .neve-white-background-control input[type=number] {padding-right: 0;}
 .neve-white-background-control button.reset {display: flex;align-items: center;justify-items: center;justify-content: center !important;flex-grow: 0;outline: 0;border-radius: 0;width: 30px;height: 30px;padding: 5px 0 5px 5px;}
@@ -135,3 +137,10 @@
 .neve-typeface-control .select-inline>* {flex-grow: 1;}
 .neve-typeface-control .select-inline select {border-radius: 0;border-color: #ccc;}
 .neve-typeface-control .select-inline .components-base-control__field {margin: 0;}
+.neve-multiselect .selected-options {display: flex;border: 1px solid #ccc;border-radius: 3px;padding: 5px 5px 0 5px;flex-wrap: wrap;}
+.neve-multiselect .selected-options .placeholder {user-select: none;color: #777;margin-bottom: 5px;}
+.neve-multiselect .selected-options .token:hover {background-color: #ec7c7c;color: #fff;}
+.neve-multiselect .available-options {margin-top: 10px;display: flex;flex-wrap: wrap;}
+.neve-multiselect .token {cursor: pointer;display: flex;align-items: center;background-color: #efefef;color: #333;padding: 3px 5px 3px 10px;margin: 0 5px 5px 0;border-radius: 20px;border: none;}
+.neve-multiselect .token:hover {background-color: #6eb77a;color: #fff;}
+.neve-multiselect .token .title {height: 100%;margin-right: 3px;}

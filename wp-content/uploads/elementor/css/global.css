@@ -674,6 +674,18 @@
 .elementor-widget-wp-widget-dpt_display_post_types ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-wp-widget-dpt_display_post_types .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-wp-widget-dpt_display_post_types .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .wpcf7 input:not([type="submit"]) {background-color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .wpcf7 select {background-color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .wpcf7 textarea {background-color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .wpcf7 label {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
+.elementor-widget-wp-widget-xyz_insert_html_widget .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
 .elementor-widget-wp-widget-shortcodes-ultimate .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-wp-widget-shortcodes-ultimate .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-wp-widget-shortcodes-ultimate .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -1091,9 +1103,11 @@
 .elementor-widget-eael-ninja ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-eael-ninja .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-eael-ninja .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
+.elementor-widget-eael-post-grid .eael-meta-posted-on {font-family: "Roboto",Sans-serif;font-weight: 300;}
+.elementor-widget-eael-post-grid .eael-entry-meta > span {font-family: "Roboto",Sans-serif;font-weight: 300;}
 .elementor-widget-eael-post-grid .eael-entry-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
 .elementor-widget-eael-post-grid .eael-grid-post-excerpt p {font-family: "Roboto",Sans-serif;font-weight: 300;}
-.elementor-widget-eael-post-grid .eael-entry-meta > div, .elementor-widget-eael-post-grid .eael-entry-meta > span {font-family: "Roboto",Sans-serif;font-weight: 300;}
+.elementor-widget-eael-post-grid .post-meta-categories li, .elementor-widget-eael-post-grid .post-meta-categories li a {font-family: "Roboto",Sans-serif;font-weight: 300;}
 .elementor-widget-eael-post-grid .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-eael-post-grid .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-eael-post-grid .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -1219,6 +1233,18 @@
 .elementor-widget-eael-twitter-feed ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-eael-twitter-feed .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-eael-twitter-feed .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
+.elementor-widget-eael-typeform .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-eael-typeform .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-eael-typeform .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-eael-typeform .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-eael-typeform .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-eael-typeform .wpcf7 input:not([type="submit"]) {background-color: #fff;}
+.elementor-widget-eael-typeform .wpcf7 select {background-color: #fff;}
+.elementor-widget-eael-typeform .wpcf7 textarea {background-color: #fff;}
+.elementor-widget-eael-typeform .wpcf7 label {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-eael-typeform ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-eael-typeform .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
+.elementor-widget-eael-typeform .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
 .elementor-widget-eael-weform .eael-weform-container ul.wpuf-form .wpuf-submit input[type="submit"] {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
 .elementor-widget-eael-weform .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-eael-weform .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
@@ -2282,6 +2308,7 @@
 .elementor-widget-bdt-business-hours .heading-date {font-family: "Roboto",Sans-serif;font-weight: 300;}
 .elementor-widget-bdt-business-hours .bdt-business-time {color: #7a7a7a;}
 .elementor-widget-bdt-business-hours .heading-time {font-family: "Roboto",Sans-serif;font-weight: 300;}
+.elementor-widget-bdt-business-hours .bdt-business-hours .bdt-live-status {font-family: "Roboto",Sans-serif;font-weight: 300;}
 .elementor-widget-bdt-business-hours .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-business-hours .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-business-hours .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2462,6 +2489,10 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-panel-slider ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-panel-slider .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-panel-slider .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
+.elementor-widget-bdt-progress-pie .bdt-progress-pie-before {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
+.elementor-widget-bdt-progress-pie .bdt-progress-pie-text {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
+.elementor-widget-bdt-progress-pie .bdt-progress-pie-number {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
+.elementor-widget-bdt-progress-pie .bdt-progress-pie-after {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
 .elementor-widget-bdt-progress-pie .bdt-progress-pie-wrapper .bdt-progress-pie-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
 .elementor-widget-bdt-progress-pie .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-progress-pie .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
@@ -2540,6 +2571,32 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-twitter-grid ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-twitter-grid .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-twitter-grid .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
+.elementor-widget-bdt-dual-button .bdt-dual-button a {font-family: "Roboto",Sans-serif;}
+.elementor-widget-bdt-dual-button .bdt-dual-button span {font-family: "Roboto",Sans-serif;}
+.elementor-widget-bdt-dual-button .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-bdt-dual-button .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-bdt-dual-button .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-bdt-dual-button .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-bdt-dual-button .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-bdt-dual-button .wpcf7 input:not([type="submit"]) {background-color: #fff;}
+.elementor-widget-bdt-dual-button .wpcf7 select {background-color: #fff;}
+.elementor-widget-bdt-dual-button .wpcf7 textarea {background-color: #fff;}
+.elementor-widget-bdt-dual-button .wpcf7 label {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-bdt-dual-button ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-bdt-dual-button .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
+.elementor-widget-bdt-dual-button .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
+.elementor-widget-bdt-fancy-list .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-bdt-fancy-list .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-bdt-fancy-list .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-bdt-fancy-list .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-bdt-fancy-list .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-bdt-fancy-list .wpcf7 input:not([type="submit"]) {background-color: #fff;}
+.elementor-widget-bdt-fancy-list .wpcf7 select {background-color: #fff;}
+.elementor-widget-bdt-fancy-list .wpcf7 textarea {background-color: #fff;}
+.elementor-widget-bdt-fancy-list .wpcf7 label {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-bdt-fancy-list ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-bdt-fancy-list .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
+.elementor-widget-bdt-fancy-list .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
 .elementor-widget-elementskit-image-accordion .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-elementskit-image-accordion .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-elementskit-image-accordion .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2692,6 +2749,18 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-elementskit-image-comparison ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-elementskit-image-comparison .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-elementskit-image-comparison .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
+.elementor-widget-elementskit-lottie .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-elementskit-lottie .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-elementskit-lottie .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-elementskit-lottie .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-elementskit-lottie .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-elementskit-lottie .wpcf7 input:not([type="submit"]) {background-color: #fff;}
+.elementor-widget-elementskit-lottie .wpcf7 select {background-color: #fff;}
+.elementor-widget-elementskit-lottie .wpcf7 textarea {background-color: #fff;}
+.elementor-widget-elementskit-lottie .wpcf7 label {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-elementskit-lottie ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-elementskit-lottie .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
+.elementor-widget-elementskit-lottie .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
 .elementor-widget-elementskit-testimonial .elementskit-single-testimonial-slider  .elementskit-commentor-content > p, .elementor-widget-elementskit-testimonial .elementskit-testimonial_card .elementskit-commentor-coment {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
 .elementor-widget-elementskit-testimonial .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-elementskit-testimonial .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}

@@ -5,7 +5,7 @@
 .llms-pagination ul li {float: none;display: inline;}
 .llms-pagination ul li .page-numbers {text-decoration: none;margin: 10px auto;display: inline-block;}
 .llms-loop-link:hover {text-decoration: none;}
-.nv-content-wrap a.llms-button-primary, .nv-content-wrap a.llms-button-secondary, .nv-content-wrap a.llms-loop-link, .nv-content-wrap a.llms-sd-link {text-decoration: none;}
+#neve_body .nv-content-wrap a.llms-button-primary, #neve_body .nv-content-wrap a.llms-button-secondary, #neve_body .nv-content-wrap a.llms-loop-link, #neve_body .nv-content-wrap a.llms-sd-link {text-decoration: none;}
 .llms-button-action, .llms-button-primary {font-size: .8em;font-weight: 600;padding: 8px 12px;transition: all .15s ease-in-out;text-align: center;vertical-align: middle;border: 1px solid transparent;border-radius: 3px;text-transform: uppercase;cursor: pointer;line-height: 1.68421;font-family: inherit;background-color: #0366d6;color: #fff;}
 .llms-button-action:hover, .llms-button-primary:hover {text-decoration: none;background-color: #0366d6;color: #fff;opacity: .9;}
 .llms-button-secondary {border-radius: 3px;border: 1px solid #676767;background-color: transparent;font-weight: 600;color: #676767;}
