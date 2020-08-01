@@ -66,6 +66,9 @@
 	to {transform: rotate(360deg);}}
 @keyframes spin {from {transform: rotate(0deg);}
 	to {transform: rotate(360deg);}}
+#neve-dashboard .columns.starter-sites {position: relative;display: flex;flex-grow: 1;background-color: #fff;border: 1px solid #ccc;padding: 50px 30px;text-align: center;align-items: center;justify-content: center;}
+#neve-dashboard .columns.starter-sites .content-wrap h1 {line-height: 1.6;}
+#neve-dashboard .ss-background {opacity: .25;z-index: -1;position: absolute;top: 0;bottom: 0;width: 100%;display: block;background-size: cover;background-position: center center;left: 0;right: 0;height: calc(100vh - 300px);flex-grow: 1;}
 #neve-dashboard header {background-color: #fff;border-bottom: 1px solid #e1e1e1;}
 #neve-dashboard header .top {display: flex;align-items: center;padding: 10px 0 20px;}
 #neve-dashboard header .heading {margin: 0;line-height: normal;color: #282828;}
@@ -258,9 +261,11 @@
 #neve-dashboard .no-results {display: flex;flex-direction: column;align-items: center;justify-content: center;margin: 30px 0;}
 #neve-dashboard .no-results p {font-size: 16px;}
 #neve-dashboard .no-results p span {color: #0073aa;font-weight: 600;}
-#neve-dashboard .no-results .tags {margin-top: 20px;}
-#neve-dashboard .no-results .tags .tag {margin: 0 20px;line-height: normal;height: auto;font-weight: 600;padding: 10px 15px;color: #fff;transition: all .3s ease;}
+#neve-dashboard .no-results .tags {margin-top: 10px;justify-content: center;display: flex;flex-wrap: wrap;}
+#neve-dashboard .no-results .tags .tag {margin: 10px 20px;line-height: normal;height: auto;font-weight: 600;padding: 10px 15px;color: #fff;transition: all .3s ease;}
 #neve-dashboard .no-results .tags .tag:hover {background-color: #0071a7;}
+#neve-dashboard .pro-badge {background-color: #6eb77a;height: auto;color: #fff;font-weight: 600;text-transform: uppercase;padding: 5px 10px;margin-left: auto;border-radius: 999px;line-height: normal;display: flex;align-items: center;}
+#neve-dashboard .pro-badge svg {margin-right: 3px;}
 #neve-dashboard .ob-migration {margin-bottom: 20px;}
 #neve-dashboard .ob-migration .card.starter-site-card {margin-right: auto !important;margin-left: auto !important;}
 #neve-dashboard .ob-migration .actions {margin: 30px auto 0;display: flex;justify-content: center;}
@@ -268,19 +273,37 @@
 #neve-dashboard .ob-head>h2, #neve-dashboard .ob-migration>h2 {font-size: 21px;color: #282828;margin: 0;line-height: 1.6;}
 #neve-dashboard .ob-head>p, #neve-dashboard .ob-migration>p {margin: 20px 0;font-size: 15px;color: #282828;}
 #neve-dashboard .ob-head>button, #neve-dashboard .ob-migration>button {margin-bottom: 20px;}
-#neve-dashboard .header-form {display: flex;align-items: center;flex-direction: column;}
-#neve-dashboard .header-form .ob-dropdown {width: 100%;}
-#neve-dashboard .header-form .search {margin-top: 20px;width: 100%;flex-grow: 1;position: relative;display: flex;}
-#neve-dashboard .header-form .search img {position: absolute;top: 50%;transform: translateY(-50%);right: 10px;}
-#neve-dashboard .header-form input {margin: 0;display: block;flex-grow: 1;border: 1px solid #e1e1e1;height: 45px;padding: 5px 50px 5px 30px;}
-#neve-dashboard .ob-dropdown {overflow: visible;display: inline-block;position: relative;z-index: 10000;}
-#neve-dashboard .ob-dropdown button {display: flex;align-items: center;font-weight: 600;padding: 5px 20px 5px 10px;height: 45px;background: #fff;border: 1px solid #e1e1e1;width: 200px;font-size: 14px;}
-#neve-dashboard .ob-dropdown button>svg {margin-left: auto;}
-#neve-dashboard .ob-dropdown img {margin-right: 5px;max-width: 30px;max-height: 30px;}
-#neve-dashboard .ob-dropdown .options {margin: 0;}
-#neve-dashboard .ob-dropdown .options li {border-bottom: 1px solid #e1e1e1;padding: 0;margin: 0;}
-#neve-dashboard .ob-dropdown .options a {height: 35px;font-size: 14px;display: flex;align-items: center;font-weight: 600;color: #282828;cursor: pointer;padding: 5px 10px;text-decoration: none;}
-#neve-dashboard .ob-dropdown .options a:hover {background-color: #0073aa;color: #fff;}
+#neve-dashboard .header-form {margin-top: 20px;display: flex;align-items: center;flex-direction: column;}
+#neve-dashboard .header-form input {margin: 0;display: block;flex-grow: 1;border: 1px solid #e1e1e1;height: 52px;padding: 5px 30px 5px 50px;font-size: 17px;font-weight: 300;}
+#neve-dashboard .search {margin-top: 0;width: 100%;position: relative;display: block;}
+#neve-dashboard .search input {width: 100%;}
+#neve-dashboard .search img {opacity: .4;position: absolute;top: 10px;left: 10px;}
+#neve-dashboard .search .ob-dropdown {overflow: visible;position: relative;width: 100%;height: 52px;display: block;}
+#neve-dashboard .search .ob-dropdown button {margin: 20px 0;position: relative;left: -1px;height: 100%;width: 100%;display: flex;align-items: center;font-weight: 600;padding: 5px 20px 5px 10px;background: #fff;border: 1px solid #e1e1e1;font-size: 14px;}
+#neve-dashboard .search .ob-dropdown button>svg {margin-left: auto;}
+#neve-dashboard .search .ob-dropdown img {margin-right: 5px;max-width: 30px;max-height: 30px;}
+#neve-dashboard .search .ob-dropdown .options {margin: 0;}
+#neve-dashboard .search .ob-dropdown .options li {padding: 0;margin: 0;}
+#neve-dashboard .search .ob-dropdown .options a {height: 35px;font-size: 14px;display: flex;align-items: center;font-weight: 600;color: #a3a3a3;cursor: pointer;padding: 5px 10px;text-decoration: none;}
+#neve-dashboard .search .ob-dropdown .options a:hover {background-color: #0073aa;color: #fff;}
+#neve-dashboard .search .ob-dropdown .options a .count {margin-left: auto;}
+#neve-dashboard .editor-tabs {display: none;margin: 30px 0;}
+#neve-dashboard .editor-tabs a {padding: 15px 20px 12px 5px;display: flex;flex-grow: 1;align-items: center;font-weight: 700;text-decoration: none;font-size: 15px;border-bottom: 3px solid transparent;position: relative;}
+#neve-dashboard .editor-tabs a .pro-badge {margin-left: auto;font-size: 11px;}
+#neve-dashboard .editor-tabs a:after {content: "";position: absolute;display: block;width: 100%;bottom: -3px;left: 0;border-bottom: 1px solid #e0e0e0;z-index: -1;}
+#neve-dashboard .editor-tabs a.active {border-bottom: 3px solid #0073aa;}
+#neve-dashboard .editor-tabs .editor {color: #616161;}
+#neve-dashboard .editor-tabs .count {color: rgba(97,97,97,.5);margin-left: 10px;}
+#neve-dashboard .editor-tabs .icon-wrap {margin-right: 10px;width: 34px;height: 34px;border-radius: 100%;display: block;overflow: hidden;}
+#neve-dashboard .editor-tabs .icon-wrap img {max-width: 100%;display: block;}
+#neve-dashboard .ob-dropdown.editor-selector {overflow: visible;display: inline-block;position: relative;width: 100%;}
+#neve-dashboard .ob-dropdown.editor-selector button {display: flex;align-items: center;font-weight: 600;padding: 5px 20px 5px 10px;background: #fff;border: 1px solid #e1e1e1;font-size: 14px;height: 52px;width: 100%;}
+#neve-dashboard .ob-dropdown.editor-selector button .count {color: #a3a3a3;margin: 0 20px 0 auto;}
+#neve-dashboard .ob-dropdown.editor-selector img {border-radius: 5px;margin-right: 5px;max-width: 30px;max-height: 30px;}
+#neve-dashboard .ob-dropdown.editor-selector .options {margin: 0;}
+#neve-dashboard .ob-dropdown.editor-selector .options li {border-bottom: 1px solid #e1e1e1;padding: 0;margin: 0;}
+#neve-dashboard .ob-dropdown.editor-selector .options a {height: 35px;font-size: 14px;display: flex;align-items: center;font-weight: 600;color: #282828;cursor: pointer;padding: 5px 10px;text-decoration: none;}
+#neve-dashboard .ob-dropdown.editor-selector .options a:hover {background-color: #0073aa;color: #fff;}
 #neve-dashboard .card.starter-site-card {padding: 0;max-width: 100%;}
 #neve-dashboard .card.starter-site-card:hover .actions, #neve-dashboard .card.starter-site-card:hover .fav, #neve-dashboard .card.starter-site-card:focus-within .actions, #neve-dashboard .card.starter-site-card:focus-within .fav {opacity: 1;}
 #neve-dashboard .card.starter-site-card .actions.visible {opacity: 1;}
@@ -298,8 +321,6 @@
 #neve-dashboard .card.starter-site-card img {width: 100%;display: block;}
 #neve-dashboard .card.starter-site-card .bottom {display: flex;align-items: center;padding: 15px 10px 15px 30px;border-top: 1px solid #e1e1e1;}
 #neve-dashboard .card.starter-site-card .bottom p {font-size: 16px;font-weight: 700;color: #282828;margin: 0;}
-#neve-dashboard .card.starter-site-card .bottom .pro-badge {background-color: #6eb77a;height: auto;color: #fff;font-weight: 600;text-transform: uppercase;padding: 5px 10px;margin-left: auto;border-radius: 999px;line-height: normal;display: flex;align-items: center;}
-#neve-dashboard .card.starter-site-card .bottom .pro-badge svg {margin-right: 3px;}
 #neve-dashboard .ob-preview {background-color: #fff;position: fixed;top: 0;bottom: 0;left: 0;right: 0;z-index: 100000;height: 100vh;margin: 0;display: flex;flex-direction: column;}
 #neve-dashboard .ob-preview .loading {bottom: 0;top: 0;left: 0;right: 0;position: absolute;display: flex;align-items: center;justify-content: center;z-index: 100000;color: #646d82;}
 #neve-dashboard .ob-preview .loading svg {-webkit-animation-name: spin;animation-name: spin;-webkit-animation-duration: 2000ms;animation-duration: 2000ms;-webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
@@ -333,9 +354,7 @@
 	#neve-dashboard .card.starter-site-card:not(:nth-child(2n)) {margin-right: 2%;}
 	#neve-dashboard .ob-head>h2, #neve-dashboard .ob-migration>h2 {font-size: 30px;}
 	#neve-dashboard .ob-head>p, #neve-dashboard .ob-migration>p {font-size: 22px;}
-	#neve-dashboard .header-form {flex-direction: row;}
-	#neve-dashboard .header-form .ob-dropdown {width: 200px;}
-	#neve-dashboard .header-form .search {width: auto;margin-left: 10px;margin-top: 0;}}
+	#neve-dashboard .header-form {flex-direction: row;}}
 @media (min-width: 992px) {#neve-dashboard .container {padding: 0 20px;}
 	#neve-dashboard .content {display: flex;}
 	#neve-dashboard .main {flex-grow: 1;margin-right: 20px;}
@@ -364,7 +383,16 @@
 	#neve-dashboard .card.starter-site-card:not(:nth-child(2n)) {margin-right: 0;}
 	#neve-dashboard .card.starter-site-card:not(:nth-child(3n)) {margin-right: 2%;}
 	#neve-dashboard .content-wrap.is-onboarding .content {box-shadow: 0 0 10px -5px rgba(0,0,0,.5);padding: 50px 50px 35px;border: 1px solid #e1e1e1;margin: 40px auto 30px;}
-	#neve-dashboard .ob-sites {margin-top: 30px;}}
+	#neve-dashboard .ob-sites {margin-top: 30px;}
+	#neve-dashboard .editor-tabs {display: flex;flex-wrap: wrap;}
+	#neve-dashboard .editor-tabs a {width: 30%;}
+	#neve-dashboard .ob-dropdown.editor-selector {display: none;}
+	#neve-dashboard .header-form {margin-top: 50px;}
+	#neve-dashboard .search {display: flex;}
+	#neve-dashboard .search input {border-bottom-right-radius: 0;border-top-right-radius: 0;}
+	#neve-dashboard .search img {top: 50%;transform: translateY(-50%);}
+	#neve-dashboard .search .ob-dropdown {display: inline-block;width: 200px;}
+	#neve-dashboard .search .ob-dropdown button {margin: 0;border-top-left-radius: 0;border-bottom-left-radius: 0;}}
 @media (min-width: 1200px) {#neve-dashboard .container {margin: 0 auto;}
 	#neve-dashboard .col {width: 50%;}
 	#neve-dashboard .col:not(:last-child) {margin-right: 20px;}
@@ -390,4 +418,7 @@
 @media (min-width: 1400px) {#neve-dashboard .container {padding: 0 50px;max-width: 1300px;}
 	#neve-dashboard .col:not(:last-child) {margin-right: 30px;}
 	#neve-dashboard .main {margin-right: 30px;}
-	#neve-dashboard .card {padding: 30px 40px;margin: 0 0 30px;}}
+	#neve-dashboard .card {padding: 30px 40px;margin: 0 0 30px;}
+	#neve-dashboard .editor-tabs {flex-wrap: nowrap;}
+	#neve-dashboard .editor-tabs a {width: auto;}
+	#neve-dashboard .editor-tabs a:last-child {padding-right: 0;}}

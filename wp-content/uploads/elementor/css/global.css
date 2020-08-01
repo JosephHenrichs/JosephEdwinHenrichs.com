@@ -2052,6 +2052,30 @@
 .elementor-widget-widgetkit-for-elementor-pros-cons ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-widgetkit-for-elementor-pros-cons .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-widgetkit-for-elementor-pros-cons .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
+.elementor-widget-widgetkit-pro-search .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-widgetkit-pro-search .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-widgetkit-pro-search .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-widgetkit-pro-search .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-widgetkit-pro-search .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-widgetkit-pro-search .wpcf7 input:not([type="submit"]) {background-color: #fff;}
+.elementor-widget-widgetkit-pro-search .wpcf7 select {background-color: #fff;}
+.elementor-widget-widgetkit-pro-search .wpcf7 textarea {background-color: #fff;}
+.elementor-widget-widgetkit-pro-search .wpcf7 label {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-widgetkit-pro-search ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-widgetkit-pro-search .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
+.elementor-widget-widgetkit-pro-search .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-widgetkit-for-elementor-site-social .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social .wpcf7 input:not([type="submit"]) {background-color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social .wpcf7 select {background-color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social .wpcf7 textarea {background-color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social .wpcf7 label {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
+.elementor-widget-widgetkit-for-elementor-site-social .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
 .elementor-widget-widgetkit-for-elementor-slider-1 .tgx-slider-1 .carousel .carousel-inner .item .carousel-caption .slider-title {font-family: "Roboto",Sans-serif;}
 .elementor-widget-widgetkit-for-elementor-slider-1  .tgx-slider-1 .carousel .carousel-inner .carousel-caption .slider-description {font-family: "Roboto",Sans-serif;}
 .elementor-widget-widgetkit-for-elementor-slider-1 .tgx-slider-1 .carousel .carousel-inner .carousel-caption .btn-slider {font-family: "Roboto",Sans-serif;}
@@ -2289,8 +2313,6 @@
 .elementor-widget-widgetkit-for-elementor-lottie-animation ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-widgetkit-for-elementor-lottie-animation .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-widgetkit-for-elementor-lottie-animation .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-accordion .bdt-accordion .bdt-accordion-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-accordion .bdt-accordion .bdt-accordion-content {font-family: "Roboto",Sans-serif;font-weight: 300;}
 .elementor-widget-bdt-accordion .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-accordion .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-accordion .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2303,12 +2325,6 @@
 .elementor-widget-bdt-accordion ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-accordion .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-accordion .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-business-hours .bdt-business-day {color: #7a7a7a;}
-.elementor-widget-bdt-business-hours .elementor-widget-container {overflow: hidden;}
-.elementor-widget-bdt-business-hours .heading-date {font-family: "Roboto",Sans-serif;font-weight: 300;}
-.elementor-widget-bdt-business-hours .bdt-business-time {color: #7a7a7a;}
-.elementor-widget-bdt-business-hours .heading-time {font-family: "Roboto",Sans-serif;font-weight: 300;}
-.elementor-widget-bdt-business-hours .bdt-business-hours .bdt-live-status {font-family: "Roboto",Sans-serif;font-weight: 300;}
 .elementor-widget-bdt-business-hours .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-business-hours .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-business-hours .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2321,9 +2337,6 @@
 .elementor-widget-bdt-business-hours ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-business-hours .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-business-hours .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-call-out .bdt-callout .bdt-callout-title {font-family: "Trebuchet MS",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-call-out .bdt-callout .bdt-callout-description {font-family: "Trebuchet MS",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-call-out .bdt-callout a.bdt-callout-button {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-call-out .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-call-out .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-call-out .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2336,10 +2349,6 @@
 .elementor-widget-bdt-call-out ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-call-out .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-call-out .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-contact-form .bdt-form-label {color: #7a7a7a;font-family: "Roboto",Sans-serif;font-weight: 300;}
-.elementor-widget-bdt-contact-form .bdt-field-group .bdt-input, .elementor-widget-bdt-contact-form .bdt-field-group textarea {font-family: "Roboto",Sans-serif;}
-.elementor-widget-bdt-contact-form .bdt-button {font-family: "Roboto",Sans-serif;}
-.elementor-widget-bdt-contact-form .bdt-contact-form-additional-message {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-contact-form .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-contact-form .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-contact-form .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2352,8 +2361,6 @@
 .elementor-widget-bdt-contact-form ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-contact-form .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-contact-form .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-body .cc-window * {font-family: "Roboto",Sans-serif;}
-body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-cookie-consent .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-cookie-consent .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-cookie-consent .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2366,10 +2373,6 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-cookie-consent ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-cookie-consent .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-cookie-consent .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-countdown .bdt-countdown-event-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-countdown .bdt-countdown-number {background-color: #000;font-family: "Roboto",Sans-serif;font-weight: 300;}
-.elementor-widget-bdt-countdown .bdt-countdown-label {font-family: "Roboto",Sans-serif;font-weight: 300;}
-.elementor-widget-bdt-countdown .bdt-event-button {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
 .elementor-widget-bdt-countdown .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-countdown .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-countdown .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2382,9 +2385,6 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-countdown ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-countdown .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-countdown .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-custom-gallery .bdt-gallery-item .bdt-gallery-item-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-custom-gallery .bdt-gallery-item .bdt-gallery-item-text {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-custom-gallery .bdt-custom-gallery .bdt-gallery-item-link {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-custom-gallery .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-custom-gallery .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-custom-gallery .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2397,11 +2397,6 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-custom-gallery ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-custom-gallery .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-custom-gallery .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-flip-box .bdt-flip-box-front .bdt-flip-box-layer-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-flip-box .bdt-flip-box-front .bdt-flip-box-layer-desc {font-family: "Roboto",Sans-serif;font-weight: 300;}
-.elementor-widget-bdt-flip-box .bdt-flip-box-back .bdt-flip-box-layer-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-flip-box .bdt-flip-box-back .bdt-flip-box-layer-desc {font-family: "Roboto",Sans-serif;font-weight: 300;}
-.elementor-widget-bdt-flip-box .bdt-flip-box-button {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-flip-box .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-flip-box .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-flip-box .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2414,6 +2409,18 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-flip-box ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-flip-box .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-flip-box .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
+.elementor-widget-bdt-image-accordion .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-bdt-image-accordion .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-bdt-image-accordion .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-bdt-image-accordion .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-bdt-image-accordion .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-bdt-image-accordion .wpcf7 input:not([type="submit"]) {background-color: #fff;}
+.elementor-widget-bdt-image-accordion .wpcf7 select {background-color: #fff;}
+.elementor-widget-bdt-image-accordion .wpcf7 textarea {background-color: #fff;}
+.elementor-widget-bdt-image-accordion .wpcf7 label {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-bdt-image-accordion ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-bdt-image-accordion .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
+.elementor-widget-bdt-image-accordion .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
 .elementor-widget-bdt-image-compare .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-image-compare .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-image-compare .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2474,9 +2481,6 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-member ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-member .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-member .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-panel-slider .bdt-panel-slide-item .bdt-panel-slide-link {font-family: "Roboto",Sans-serif;}
-.elementor-widget-bdt-panel-slider .bdt-panel-slide-item .bdt-panel-slide-title {font-family: "Roboto",Sans-serif;}
-.elementor-widget-bdt-panel-slider .bdt-panel-slide-item .bdt-panel-slide-text {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-panel-slider .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-panel-slider .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-panel-slider .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2489,11 +2493,6 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-panel-slider ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-panel-slider .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-panel-slider .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-progress-pie .bdt-progress-pie-before {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-progress-pie .bdt-progress-pie-text {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-progress-pie .bdt-progress-pie-number {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-progress-pie .bdt-progress-pie-after {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
-.elementor-widget-bdt-progress-pie .bdt-progress-pie-wrapper .bdt-progress-pie-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
 .elementor-widget-bdt-progress-pie .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-progress-pie .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-progress-pie .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2506,7 +2505,6 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-progress-pie ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-progress-pie .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-progress-pie .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-scroll-button .bdt-scroll-button {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-scroll-button .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-scroll-button .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-scroll-button .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2519,9 +2517,18 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-scroll-button ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-scroll-button .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-scroll-button .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-slider .bdt-slider .bdt-slide-item .bdt-slide-title {font-family: "Roboto",Sans-serif;}
-.elementor-widget-bdt-slider .bdt-slider .bdt-slide-item .bdt-slide-text {font-family: "Roboto",Sans-serif;}
-.elementor-widget-bdt-slider .bdt-slider .bdt-slide-item .bdt-slide-link {font-family: "Roboto",Sans-serif;}
+.elementor-widget-bdt-step-flow .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
+.elementor-widget-bdt-step-flow .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
+.elementor-widget-bdt-step-flow .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
+.elementor-widget-bdt-step-flow .tippy-popper[x-placement^=bottom] .tippy-arrow {border-bottom-color: #fff;}
+.elementor-widget-bdt-step-flow .tippy-popper[x-placement^=left] .tippy-arrow {border-left-color: #fff;}
+.elementor-widget-bdt-step-flow .wpcf7 input:not([type="submit"]) {background-color: #fff;}
+.elementor-widget-bdt-step-flow .wpcf7 select {background-color: #fff;}
+.elementor-widget-bdt-step-flow .wpcf7 textarea {background-color: #fff;}
+.elementor-widget-bdt-step-flow .wpcf7 label {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-bdt-step-flow ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
+.elementor-widget-bdt-step-flow .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
+.elementor-widget-bdt-step-flow .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
 .elementor-widget-bdt-slider .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-slider .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-slider .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2534,7 +2541,6 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-slider ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-slider .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-slider .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-toggle .bdt-show-hide .bdt-show-hide-title {font-family: "ABeeZee",Sans-serif;font-weight: 100;}
 .elementor-widget-bdt-toggle .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-toggle .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-toggle .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
@@ -2571,8 +2577,6 @@ body .cc-window .cc-btn.cc-dismiss {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-twitter-grid ::placeholder {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;}
 .elementor-widget-bdt-twitter-grid .wpcf7-submit {font-family: "ABeeZee",Sans-serif;font-weight: 100;color: #fff;background-color: #fff;}
 .elementor-widget-bdt-twitter-grid .wpcf7 input[type="submit"]:hover {color: #fff;background-color: #fff;}
-.elementor-widget-bdt-dual-button .bdt-dual-button a {font-family: "Roboto",Sans-serif;}
-.elementor-widget-bdt-dual-button .bdt-dual-button span {font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-dual-button .tippy-tooltip {color: #fff;background-color: #fff;font-family: "Roboto",Sans-serif;}
 .elementor-widget-bdt-dual-button .tippy-popper[x-placement^=top] .tippy-arrow {border-top-color: #fff;}
 .elementor-widget-bdt-dual-button .tippy-popper[x-placement^=right] .tippy-arrow {border-right-color: #fff;}
